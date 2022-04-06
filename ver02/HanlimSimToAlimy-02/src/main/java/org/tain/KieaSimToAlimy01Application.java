@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HanlimSimToAlimy02Application {
+public class KieaSimToAlimy01Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HanlimSimToAlimy02Application.class, args);
+		SpringApplication.run(KieaSimToAlimy01Application.class, args);
 	}
 
 }

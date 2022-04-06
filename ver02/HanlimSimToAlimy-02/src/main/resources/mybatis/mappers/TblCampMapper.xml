@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.tain.mybatis.mappers.TblCampMapper">
+
+	<!-- selectAll -->
+	<select id="selectAll" parameterType="CamelMap" resultType="CamelMap">
+		select
+			id
+			, camp_code
+			, camp_content
+			, flag_send
+			, time_insert
+			, time_send
+		from
+			tbl_camp
+		where 1=1
+	</select>
+	
+	<!-- insertOne -->
+	<insert id="insertOne" parameterType="CamelMap">
+		insert into tbl_camp
+		(
+			camp_code,
+			camp_content,
+			flag_send
+		)
+		values
+		(
+			#{campCode},
+			#{campContent},
+			'N'
+		)
+	</insert>
+	
+	<!-- updateReady -->
+	<update id="updateReady">
+		update
+			tbl_camp
+		set
+			flag_send = 'R'
+		where
+			flag_send = 'N'
+	</update>
+	
+	<!-- selectReady -->
+	<select id="selectReady" resultType="CamelMap">
+		select
+			id
+			, camp_code
+			, camp_content
+			, flag_send
+			, time_insert
+			, time_send
+		from
+			tbl_camp
+		where 1=1
+			and flag_send = 'R'
+	</select>
+	
+	<!-- updateById -->
+	<update id="updateById" parameterType="CamelMap">
+		update
+			tbl_camp
+		set
+			flag_send = 'Y',
+			time_send = current_timestamp()
+		where
+			id = #{id}
+	</update>
+
+	<!-- selectOne -->
+	<select id="selectOne" parameterType="CamelMap" resultType="CamelMap">
+		select
+			id
+			, camp_code
+			, camp_content
+			, flag_send
+			, time_insert
+			, time_send
+		from
+			tbl_camp
+		where 1=1
+		<if test='id != null'>
+			and id = #{id}
+		</if>
+		<if test='campCode != null'>
+			and camp_code = #{campCode}
+		</if>
+	</select>
+	
+</mapper>
