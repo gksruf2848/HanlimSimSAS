@@ -79,3 +79,4 @@ where 1=1
 select * from tbl_camp;
 ---------------
 call parsedatetime('2001-07-12 03:05:06','yyyy-MM-dd HH:mm:ss');
+
