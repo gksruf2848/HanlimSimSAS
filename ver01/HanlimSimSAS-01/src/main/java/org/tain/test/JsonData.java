@@ -10,16 +10,12 @@ public class JsonData {
 	
 private static final boolean flag = true;
 	
-	public static void main(String[] args) throws Exception {
-		if (flag) test01();
-	}
-	
 	private static void test01() throws Exception {
 		String jsonString = getJsonString();
 		System.out.println(jsonString);
 	}
 	
-	private static String getJsonString() {
+	public static String getJsonString() {
 		StringBuilder sb = new StringBuilder();
 		String comma = "";
 		sb.append("[");

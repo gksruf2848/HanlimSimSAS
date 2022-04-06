@@ -9,6 +9,8 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.tain.test.JsonData;
+
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -129,7 +131,7 @@ public class HttpConnection {
 		if (flag) {
 			root = new HashMap<>();
 			root.put("url", "http://localhost:8080/v0.1/rest/save");
-			if (flag) root.put("method", "get");
+			if (flag) root.put("method", "post");
 			
 			if (!flag) {
 				Map<String, Object> header = new HashMap<>();
@@ -142,7 +144,7 @@ public class HttpConnection {
 				properties.put("Content-Type", "application/x-www-form-urlencoded");
 				properties.put("Content-Type", "application/json; charset=utf-8");
 				properties.put("Content-Type", "application/json; utf-8");
-				properties.put("Accept-Language", "ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4"); 
+				properties.put("Accept-Language", "ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4");
 				properties.put("Accept-Encoding", "gzip,deflate,sdch"); 
 				properties.put("Accept-Charset", "windows-949,utf-8;q=0.7,*;q=0.3"); 
 				properties.put("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
@@ -151,7 +153,7 @@ public class HttpConnection {
 				root.put("properties", properties);
 			}
 			if (flag) {
-				String request = "{\"id\":1, \"campCode\":\"code\", \"campContent\":\"content\"}";
+				String request = JsonData.getJsonString();
 				//request = "{\"code\":\"C001\",\"dummy\":\"dummyValue\"}";
 				root.put("request", request);
 				System.out.println("--> request: " + request);

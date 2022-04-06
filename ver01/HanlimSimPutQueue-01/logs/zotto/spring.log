@@ -812,3 +812,795 @@ com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize 
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 20:43:09,537 INFO  [RMI TCP Connection(77)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2022-04-05 20:43:09,597 INFO  [RMI TCP Connection(77)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-05 21:08:47,710 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - Starting HanlimSimPutQueue01Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 6321 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01)
+2022-04-05 21:08:47,711 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-05 21:08:47,757 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-05 21:08:47,757 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-05 21:08:48,462 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-05 21:08:48,553 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2022-04-05 21:08:49,369 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2022-04-05 21:08:49,378 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-05 21:08:49,378 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-05 21:08:49,463 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-05 21:08:49,464 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1706 ms
+2022-04-05 21:08:49,716 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/monsterdb'
+2022-04-05 21:08:49,922 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-05 21:08:49,952 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-05 21:08:50,062 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 21:08:50,129 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-05 21:08:50,562 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 21:08:50,570 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-05 21:08:51,026 INFO  [restartedMain] [org.tain.tools.Tools          ] - HANLIM-20220404 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-05 21:08:51,027 INFO  [restartedMain] [org.tain.tools.Tools          ] - HANLIM-20220404 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-05 21:08:51,790 WARN  [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] - Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-05 21:08:52,067 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-05 21:08:52,112 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2022-04-05 21:08:52,122 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - Started HanlimSimPutQueue01Application in 4.918 seconds (JVM running for 5.71)
+2022-04-05 21:08:52,125 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - HANLIM-20220404 >>>>> org.tain.HanlimSimPutQueue01Application.run()#32 {}
+2022-04-05 21:08:52,125 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.doing()#16 {}
+2022-04-05 21:08:52,125 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.jobProperties()#30 {}
+2022-04-05 21:08:52,125 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - HANLIM-20220404 >>>>> org.tain.working.properties.PropertiesWorking.doing()#35 {}
+2022-04-05 21:08:52,149 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - BASE -- {
+  "name" : "Zotto API project",
+  "program" : "KieaZotto API program",
+  "version" : "ver 1.1_2021.04.01",
+  "comment" : "This is Zotto API project.",
+  "charSet" : "utf-8",
+  "testFlag" : false,
+  "svrCode" : "TEST03",
+  "dummy" : null
+}
+2022-04-05 21:08:52,150 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - PARAM - {
+  "name" : "PARAM (air)",
+  "home" : "/Users/hanlim-air",
+  "base" : "/KANG/monster/20210320",
+  "infoPath" : "/json/info",
+  "dataPath" : "/json/data",
+  "basePath" : "/Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01/src/main/resources/json",
+  "campFile" : "camp.json",
+  "dummy" : null
+}
+2022-04-05 21:08:52,150 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JOB  -- {
+  "name" : "JOB (air)",
+  "dummy" : null
+}
+2022-04-05 21:08:52,151 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JSON -- {
+  "name" : "JSON (air)",
+  "dummy" : null
+}
+2022-04-05 21:08:52,151 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - URL  -- {
+  "name" : "URL (air)",
+  "dummy" : null
+}
+2022-04-05 21:08:52,151 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.jobLoad()#41 {}
+2022-04-05 21:08:52,151 INFO  [restartedMain] [o.t.working.load.LoadWorking  ] - HANLIM-20220404 >>>>> org.tain.working.load.LoadWorking.doing()#15 {}
+2022-04-05 21:08:52,151 INFO  [restartedMain] [o.t.working.load.LoadWorking  ] - HANLIM-20220404 >>>>> org.tain.working.load.LoadWorking.loadTblCamp()#28 {}
+2022-04-05 21:08:52,151 INFO  [restartedMain] [o.t.w.l.tables.TblCampLoader  ] - HANLIM-20220404 >>>>> org.tain.working.load.tables.TblCampLoader.loading()#31 {}
+2022-04-05 21:08:58,614 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-05 21:08:58,615 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2022-04-05 21:08:58,621 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 6 ms
+2022-04-05 21:08:58,674 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> ip.info: 127.0.0.1
+2022-04-05 21:08:58,675 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> request.headers: [accept:"application/json", accept-charset:"windows-949,utf-8;q=0.7,*;q=0.3", cookie:"1234567890", user-agent:"Mozilla/5.0", accept-language:"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4", accept-encoding:"gzip,deflate,sdch", host:"localhost:8080", connection:"keep-alive", content-length:"571", Content-Type:"application/json;charset=UTF-8"]
+2022-04-05 21:08:58,675 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> request.body: [{"id", "campCode":"code100", "campContent":"content100"},{"id", "campCode":"code101", "campContent":"content101"},{"id", "campCode":"code102", "campContent":"content102"},{"id", "campCode":"code103", "campContent":"content103"},{"id", "campCode":"code104", "campContent":"content104"},{"id", "campCode":"code105", "campContent":"content105"},{"id", "campCode":"code106", "campContent":"content106"},{"id", "campCode":"code107", "campContent":"content107"},{"id", "campCode":"code108", "campContent":"content108"},{"id", "campCode":"code109", "campContent":"content109"}]
+2022-04-05 21:08:58,688 ERROR [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception
+com.fasterxml.jackson.databind.JsonMappingException: Unexpected character (',' (code 44)): was expecting a colon to separate field name and value
+ at [Source: (String)"[{"id", "campCode":"code100", "campContent":"content100"},{"id", "campCode":"code101", "campContent":"content101"},{"id", "campCode":"code102", "campContent":"content102"},{"id", "campCode":"code103", "campContent":"content103"},{"id", "campCode":"code104", "campContent":"content104"},{"id", "campCode":"code105", "campContent":"content105"},{"id", "campCode":"code106", "campContent":"content106"},{"id", "campCode":"code107", "campContent":"content107"},{"id", "campCode":"code108", "campContent":"[truncated 71 chars]; line: 1, column: 8] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:392)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:363)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:371)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3612)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): was expecting a colon to separate field name and value
+ at [Source: (String)"[{"id", "campCode":"code100", "campContent":"content100"},{"id", "campCode":"code101", "campContent":"content101"},{"id", "campCode":"code102", "campContent":"content102"},{"id", "campCode":"code103", "campContent":"content103"},{"id", "campCode":"code104", "campContent":"content104"},{"id", "campCode":"code105", "campContent":"content105"},{"id", "campCode":"code106", "campContent":"content106"},{"id", "campCode":"code107", "campContent":"content107"},{"id", "campCode":"code108", "campContent":"[truncated 71 chars]; line: 1, column: 8]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipColon2(ReaderBasedJsonParser.java:2309)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipColon(ReaderBasedJsonParser.java:2288)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:965)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringKeyMap(MapDeserializer.java:582)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:437)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:32)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	... 57 common frames omitted
+2022-04-05 21:09:13,789 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> ip.info: 0:0:0:0:0:0:0:1
+2022-04-05 21:09:13,794 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> request.headers: [host:"localhost:8080", connection:"keep-alive", cache-control:"max-age=0", sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"", sec-ch-ua-mobile:"?0", sec-ch-ua-platform:""macOS"", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", sec-fetch-dest:"document", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", cookie:"_dd_s=logs=1&id=d360350e-31cb-480d-8df4-3b412dbc97f8&created=1649160544703&expire=1649161450832"]
+2022-04-05 21:09:13,794 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> request.body: null
+2022-04-05 21:09:13,807 ERROR [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: argument "content" is null] with root cause
+java.lang.IllegalArgumentException: argument "content" is null
+	at com.fasterxml.jackson.databind.ObjectMapper._assertNotNull(ObjectMapper.java:4829)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3611)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:12:13,623 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> ip.info: 127.0.0.1
+2022-04-05 21:12:13,627 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> request.headers: [accept:"application/json", accept-charset:"windows-949,utf-8;q=0.7,*;q=0.3", cookie:"1234567890", user-agent:"Mozilla/5.0", accept-language:"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4", accept-encoding:"gzip,deflate,sdch", host:"localhost:8080", connection:"keep-alive", content-length:"621", Content-Type:"application/json;charset=UTF-8"]
+2022-04-05 21:12:13,627 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> request.body: [[{"id":100, "campCode":"code100", "campContent":"content100"},[{"id":101, "campCode":"code101", "campContent":"content101"},[{"id":102, "campCode":"code102", "campContent":"content102"},[{"id":103, "campCode":"code103", "campContent":"content103"},[{"id":104, "campCode":"code104", "campContent":"content104"},[{"id":105, "campCode":"code105", "campContent":"content105"},[{"id":106, "campCode":"code106", "campContent":"content106"},[{"id":107, "campCode":"code107", "campContent":"content107"},[{"id":108, "campCode":"code108", "campContent":"content108"},[{"id":109, "campCode":"code109", "campContent":"content109"}]
+2022-04-05 21:12:13,644 ERROR [http-nio-8080-exec-4] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.LinkedHashMap<java.lang.String,java.lang.Object>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (String)"[[{"id":100, "campCode":"code100", "campContent":"content100"},[{"id":101, "campCode":"code101", "campContent":"content101"},[{"id":102, "campCode":"code102", "campContent":"content102"},[{"id":103, "campCode":"code103", "campContent":"content103"},[{"id":104, "campCode":"code104", "campContent":"content104"},[{"id":105, "campCode":"code105", "campContent":"content105"},[{"id":106, "campCode":"code106", "campContent":"content106"},[{"id":107, "campCode":"code107", "campContent":"content107"},[{""[truncated 121 chars]; line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(StdDeserializer.java:222)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:447)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:32)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3612)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:12:18,303 INFO  [http-nio-8080-exec-5] [o.t.c.rest.CampController     ] - >>>>> ip.info: 0:0:0:0:0:0:0:1
+2022-04-05 21:12:18,305 INFO  [http-nio-8080-exec-5] [o.t.c.rest.CampController     ] - >>>>> request.headers: [host:"localhost:8080", connection:"keep-alive", cache-control:"max-age=0", sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"", sec-ch-ua-mobile:"?0", sec-ch-ua-platform:""macOS"", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", sec-fetch-dest:"document", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", cookie:"_dd_s=logs=1&id=d360350e-31cb-480d-8df4-3b412dbc97f8&created=1649160544703&expire=1649161636310"]
+2022-04-05 21:12:18,305 INFO  [http-nio-8080-exec-5] [o.t.c.rest.CampController     ] - >>>>> request.body: null
+2022-04-05 21:12:18,314 ERROR [http-nio-8080-exec-5] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: argument "content" is null] with root cause
+java.lang.IllegalArgumentException: argument "content" is null
+	at com.fasterxml.jackson.databind.ObjectMapper._assertNotNull(ObjectMapper.java:4829)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3611)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:12:21,796 INFO  [RMI TCP Connection(7)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2022-04-05 21:12:21,841 INFO  [RMI TCP Connection(7)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-05 21:12:29,402 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - Starting HanlimSimPutQueue01Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 6442 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01)
+2022-04-05 21:12:29,404 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-05 21:12:29,449 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-05 21:12:29,449 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-05 21:12:30,128 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-05 21:12:30,218 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2022-04-05 21:12:31,051 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2022-04-05 21:12:31,077 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-05 21:12:31,078 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-05 21:12:31,153 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-05 21:12:31,154 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1705 ms
+2022-04-05 21:12:31,382 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/monsterdb'
+2022-04-05 21:12:31,589 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-05 21:12:31,619 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-05 21:12:31,731 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 21:12:31,794 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-05 21:12:32,230 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 21:12:32,239 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-05 21:12:32,697 INFO  [restartedMain] [org.tain.tools.Tools          ] - HANLIM-20220404 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-05 21:12:32,697 INFO  [restartedMain] [org.tain.tools.Tools          ] - HANLIM-20220404 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-05 21:12:33,454 WARN  [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] - Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-05 21:12:33,731 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-05 21:12:33,775 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2022-04-05 21:12:33,786 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - Started HanlimSimPutQueue01Application in 4.873 seconds (JVM running for 5.637)
+2022-04-05 21:12:33,789 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - HANLIM-20220404 >>>>> org.tain.HanlimSimPutQueue01Application.run()#32 {}
+2022-04-05 21:12:33,789 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.doing()#16 {}
+2022-04-05 21:12:33,789 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.jobProperties()#30 {}
+2022-04-05 21:12:33,789 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - HANLIM-20220404 >>>>> org.tain.working.properties.PropertiesWorking.doing()#35 {}
+2022-04-05 21:12:33,813 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - BASE -- {
+  "name" : "Zotto API project",
+  "program" : "KieaZotto API program",
+  "version" : "ver 1.1_2021.04.01",
+  "comment" : "This is Zotto API project.",
+  "charSet" : "utf-8",
+  "testFlag" : false,
+  "svrCode" : "TEST03",
+  "dummy" : null
+}
+2022-04-05 21:12:33,814 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - PARAM - {
+  "name" : "PARAM (air)",
+  "home" : "/Users/hanlim-air",
+  "base" : "/KANG/monster/20210320",
+  "infoPath" : "/json/info",
+  "dataPath" : "/json/data",
+  "basePath" : "/Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01/src/main/resources/json",
+  "campFile" : "camp.json",
+  "dummy" : null
+}
+2022-04-05 21:12:33,815 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JOB  -- {
+  "name" : "JOB (air)",
+  "dummy" : null
+}
+2022-04-05 21:12:33,815 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JSON -- {
+  "name" : "JSON (air)",
+  "dummy" : null
+}
+2022-04-05 21:12:33,815 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - URL  -- {
+  "name" : "URL (air)",
+  "dummy" : null
+}
+2022-04-05 21:12:33,815 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.jobLoad()#41 {}
+2022-04-05 21:12:33,816 INFO  [restartedMain] [o.t.working.load.LoadWorking  ] - HANLIM-20220404 >>>>> org.tain.working.load.LoadWorking.doing()#15 {}
+2022-04-05 21:12:33,816 INFO  [restartedMain] [o.t.working.load.LoadWorking  ] - HANLIM-20220404 >>>>> org.tain.working.load.LoadWorking.loadTblCamp()#28 {}
+2022-04-05 21:12:33,816 INFO  [restartedMain] [o.t.w.l.tables.TblCampLoader  ] - HANLIM-20220404 >>>>> org.tain.working.load.tables.TblCampLoader.loading()#31 {}
+2022-04-05 21:12:45,455 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-05 21:12:45,456 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2022-04-05 21:12:45,461 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 5 ms
+2022-04-05 21:12:45,518 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> ip.info: 127.0.0.1
+2022-04-05 21:12:45,519 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> request.headers: [accept:"application/json", accept-charset:"windows-949,utf-8;q=0.7,*;q=0.3", cookie:"1234567890", user-agent:"Mozilla/5.0", accept-language:"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4", accept-encoding:"gzip,deflate,sdch", host:"localhost:8080", connection:"keep-alive", content-length:"621", Content-Type:"application/json;charset=UTF-8"]
+2022-04-05 21:12:45,520 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> request.body: [[{"id":100, "campCode":"code100", "campContent":"content100"},[{"id":101, "campCode":"code101", "campContent":"content101"},[{"id":102, "campCode":"code102", "campContent":"content102"},[{"id":103, "campCode":"code103", "campContent":"content103"},[{"id":104, "campCode":"code104", "campContent":"content104"},[{"id":105, "campCode":"code105", "campContent":"content105"},[{"id":106, "campCode":"code106", "campContent":"content106"},[{"id":107, "campCode":"code107", "campContent":"content107"},[{"id":108, "campCode":"code108", "campContent":"content108"},[{"id":109, "campCode":"code109", "campContent":"content109"}]
+2022-04-05 21:12:45,532 ERROR [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.LinkedHashMap<java.lang.String,java.lang.Object>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (String)"[[{"id":100, "campCode":"code100", "campContent":"content100"},[{"id":101, "campCode":"code101", "campContent":"content101"},[{"id":102, "campCode":"code102", "campContent":"content102"},[{"id":103, "campCode":"code103", "campContent":"content103"},[{"id":104, "campCode":"code104", "campContent":"content104"},[{"id":105, "campCode":"code105", "campContent":"content105"},[{"id":106, "campCode":"code106", "campContent":"content106"},[{"id":107, "campCode":"code107", "campContent":"content107"},[{""[truncated 121 chars]; line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(StdDeserializer.java:222)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:447)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:32)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3612)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:12:57,126 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> ip.info: 0:0:0:0:0:0:0:1
+2022-04-05 21:12:57,131 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> request.headers: [host:"localhost:8080", connection:"keep-alive", cache-control:"max-age=0", sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"", sec-ch-ua-mobile:"?0", sec-ch-ua-platform:""macOS"", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", sec-fetch-dest:"document", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", cookie:"_dd_s=logs=1&id=d360350e-31cb-480d-8df4-3b412dbc97f8&created=1649160544703&expire=1649161675962"]
+2022-04-05 21:12:57,131 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> request.body: null
+2022-04-05 21:12:57,144 ERROR [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: argument "content" is null] with root cause
+java.lang.IllegalArgumentException: argument "content" is null
+	at com.fasterxml.jackson.databind.ObjectMapper._assertNotNull(ObjectMapper.java:4829)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3611)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:14:39,991 INFO  [RMI TCP Connection(4)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2022-04-05 21:14:40,044 INFO  [RMI TCP Connection(4)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-05 21:14:48,118 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - Starting HanlimSimPutQueue01Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 6473 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01)
+2022-04-05 21:14:48,120 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-05 21:14:48,163 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-05 21:14:48,164 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-05 21:14:48,845 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-05 21:14:48,907 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2022-04-05 21:14:49,650 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2022-04-05 21:14:49,657 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-05 21:14:49,658 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-05 21:14:49,739 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-05 21:14:49,740 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1576 ms
+2022-04-05 21:14:49,955 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/monsterdb'
+2022-04-05 21:14:50,146 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-05 21:14:50,169 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-05 21:14:50,262 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-05 21:14:50,317 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-05 21:14:50,773 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-05 21:14:50,779 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-05 21:14:51,218 INFO  [restartedMain] [org.tain.tools.Tools          ] - HANLIM-20220404 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-05 21:14:51,221 INFO  [restartedMain] [org.tain.tools.Tools          ] - HANLIM-20220404 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-05 21:14:51,975 WARN  [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] - Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-05 21:14:52,255 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-05 21:14:52,297 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2022-04-05 21:14:52,308 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - Started HanlimSimPutQueue01Application in 4.675 seconds (JVM running for 5.436)
+2022-04-05 21:14:52,310 INFO  [restartedMain] [o.t.HanlimSimPutQueue01Application] - HANLIM-20220404 >>>>> org.tain.HanlimSimPutQueue01Application.run()#32 {}
+2022-04-05 21:14:52,310 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.doing()#16 {}
+2022-04-05 21:14:52,310 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.jobProperties()#30 {}
+2022-04-05 21:14:52,310 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - HANLIM-20220404 >>>>> org.tain.working.properties.PropertiesWorking.doing()#35 {}
+2022-04-05 21:14:52,335 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - BASE -- {
+  "name" : "Zotto API project",
+  "program" : "KieaZotto API program",
+  "version" : "ver 1.1_2021.04.01",
+  "comment" : "This is Zotto API project.",
+  "charSet" : "utf-8",
+  "testFlag" : false,
+  "svrCode" : "TEST03",
+  "dummy" : null
+}
+2022-04-05 21:14:52,336 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - PARAM - {
+  "name" : "PARAM (air)",
+  "home" : "/Users/hanlim-air",
+  "base" : "/KANG/monster/20210320",
+  "infoPath" : "/json/info",
+  "dataPath" : "/json/data",
+  "basePath" : "/Users/hanlim_air/STS/Git/HanlimSimSAS/ver01/HanlimSimPutQueue-01/src/main/resources/json",
+  "campFile" : "camp.json",
+  "dummy" : null
+}
+2022-04-05 21:14:52,336 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JOB  -- {
+  "name" : "JOB (air)",
+  "dummy" : null
+}
+2022-04-05 21:14:52,337 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JSON -- {
+  "name" : "JSON (air)",
+  "dummy" : null
+}
+2022-04-05 21:14:52,337 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - URL  -- {
+  "name" : "URL (air)",
+  "dummy" : null
+}
+2022-04-05 21:14:52,337 INFO  [restartedMain] [org.tain.working.Working      ] - HANLIM-20220404 >>>>> org.tain.working.Working.jobLoad()#41 {}
+2022-04-05 21:14:52,337 INFO  [restartedMain] [o.t.working.load.LoadWorking  ] - HANLIM-20220404 >>>>> org.tain.working.load.LoadWorking.doing()#15 {}
+2022-04-05 21:14:52,337 INFO  [restartedMain] [o.t.working.load.LoadWorking  ] - HANLIM-20220404 >>>>> org.tain.working.load.LoadWorking.loadTblCamp()#28 {}
+2022-04-05 21:14:52,337 INFO  [restartedMain] [o.t.w.l.tables.TblCampLoader  ] - HANLIM-20220404 >>>>> org.tain.working.load.tables.TblCampLoader.loading()#31 {}
+2022-04-05 21:15:12,000 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-05 21:15:12,001 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2022-04-05 21:15:12,006 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 4 ms
+2022-04-05 21:15:12,063 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> ip.info: 127.0.0.1
+2022-04-05 21:15:12,065 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> request.headers: [accept:"application/json", accept-charset:"windows-949,utf-8;q=0.7,*;q=0.3", cookie:"1234567890", user-agent:"Mozilla/5.0", accept-language:"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4", accept-encoding:"gzip,deflate,sdch", host:"localhost:8080", connection:"keep-alive", content-length:"621", Content-Type:"application/json;charset=UTF-8"]
+2022-04-05 21:15:12,066 INFO  [http-nio-8080-exec-1] [o.t.c.rest.CampController     ] - >>>>> request.body: [[{"id":100, "campCode":"code100", "campContent":"content100"},[{"id":101, "campCode":"code101", "campContent":"content101"},[{"id":102, "campCode":"code102", "campContent":"content102"},[{"id":103, "campCode":"code103", "campContent":"content103"},[{"id":104, "campCode":"code104", "campContent":"content104"},[{"id":105, "campCode":"code105", "campContent":"content105"},[{"id":106, "campCode":"code106", "campContent":"content106"},[{"id":107, "campCode":"code107", "campContent":"content107"},[{"id":108, "campCode":"code108", "campContent":"content108"},[{"id":109, "campCode":"code109", "campContent":"content109"}]
+2022-04-05 21:15:12,082 ERROR [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.LinkedHashMap<java.lang.String,java.lang.Object>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (String)"[[{"id":100, "campCode":"code100", "campContent":"content100"},[{"id":101, "campCode":"code101", "campContent":"content101"},[{"id":102, "campCode":"code102", "campContent":"content102"},[{"id":103, "campCode":"code103", "campContent":"content103"},[{"id":104, "campCode":"code104", "campContent":"content104"},[{"id":105, "campCode":"code105", "campContent":"content105"},[{"id":106, "campCode":"code106", "campContent":"content106"},[{"id":107, "campCode":"code107", "campContent":"content107"},[{""[truncated 121 chars]; line: 1, column: 2] (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(StdDeserializer.java:222)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:447)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:32)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:355)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3612)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:15:18,524 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> ip.info: 0:0:0:0:0:0:0:1
+2022-04-05 21:15:18,526 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> request.headers: [host:"localhost:8080", connection:"keep-alive", cache-control:"max-age=0", sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"", sec-ch-ua-mobile:"?0", sec-ch-ua-platform:""macOS"", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", sec-fetch-dest:"document", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", cookie:"_dd_s=logs=1&id=d360350e-31cb-480d-8df4-3b412dbc97f8&created=1649160544703&expire=1649161817144"]
+2022-04-05 21:15:18,526 INFO  [http-nio-8080-exec-2] [o.t.c.rest.CampController     ] - >>>>> request.body: null
+2022-04-05 21:15:18,537 ERROR [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: argument "content" is null] with root cause
+java.lang.IllegalArgumentException: argument "content" is null
+	at com.fasterxml.jackson.databind.ObjectMapper._assertNotNull(ObjectMapper.java:4829)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3611)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:16:50,132 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> ip.info: 127.0.0.1
+2022-04-05 21:16:50,134 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> request.headers: [accept:"application/json", accept-charset:"windows-949,utf-8;q=0.7,*;q=0.3", cookie:"1234567890", user-agent:"Mozilla/5.0", accept-language:"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4", accept-encoding:"gzip,deflate,sdch", host:"localhost:8080", connection:"keep-alive", content-length:"611", Content-Type:"application/json;charset=UTF-8"]
+2022-04-05 21:16:50,134 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> request.body: [{"id":100, "campCode":"code100", "campContent":"content100"},{"id":101, "campCode":"code101", "campContent":"content101"},{"id":102, "campCode":"code102", "campContent":"content102"},{"id":103, "campCode":"code103", "campContent":"content103"},{"id":104, "campCode":"code104", "campContent":"content104"},{"id":105, "campCode":"code105", "campContent":"content105"},{"id":106, "campCode":"code106", "campContent":"content106"},{"id":107, "campCode":"code107", "campContent":"content107"},{"id":108, "campCode":"code108", "campContent":"content108"},{"id":109, "campCode":"code109", "campContent":"content109"}]
+2022-04-05 21:16:50,181 INFO  [http-nio-8080-exec-4] [o.t.c.rest.CampController     ] - >>>>> ret: 1
+2022-04-05 21:16:53,825 INFO  [http-nio-8080-exec-6] [o.t.c.rest.CampController     ] - >>>>> ip.info: 0:0:0:0:0:0:0:1
+2022-04-05 21:16:53,828 INFO  [http-nio-8080-exec-6] [o.t.c.rest.CampController     ] - >>>>> request.headers: [host:"localhost:8080", connection:"keep-alive", cache-control:"max-age=0", sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"", sec-ch-ua-mobile:"?0", sec-ch-ua-platform:""macOS"", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", sec-fetch-dest:"document", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", cookie:"_dd_s=logs=1&id=d360350e-31cb-480d-8df4-3b412dbc97f8&created=1649160544703&expire=1649161911939"]
+2022-04-05 21:16:53,829 INFO  [http-nio-8080-exec-6] [o.t.c.rest.CampController     ] - >>>>> request.body: null
+2022-04-05 21:16:53,839 ERROR [http-nio-8080-exec-6] [o.a.c.c.C.[.[.[.1.[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [/v0.1] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: argument "content" is null] with root cause
+java.lang.IllegalArgumentException: argument "content" is null
+	at com.fasterxml.jackson.databind.ObjectMapper._assertNotNull(ObjectMapper.java:4829)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3611)
+	at org.tain.controller.rest.CampController.save(CampController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-05 21:20:05,342 INFO  [RMI TCP Connection(8)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2022-04-05 21:20:05,386 INFO  [RMI TCP Connection(8)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
