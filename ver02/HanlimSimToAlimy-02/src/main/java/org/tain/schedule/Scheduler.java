@@ -70,7 +70,7 @@ public class Scheduler {
 					
 					if (Boolean.TRUE) {
 						Map<String, Object> root = new HashMap<>();
-						root.put("url", "http://localhost:8088/v0.1/rest/campContent");
+						root.put("url", "http://localhost:8884/v0.1/rest/campContent");
 						root.put("method", "get");
 						root.put("method", "post");
 						String reqBody = (String) map.get("campContent");

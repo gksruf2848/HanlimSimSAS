@@ -3,8 +3,6 @@ package org.tain.utils;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.tain.test.JsonData;
-
 public class ApiConnectionMain {
 
 	private static boolean flag = true;

@@ -3,16 +3,22 @@ package org.tain.utils;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.tain.test.JsonData;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 
+@Component
+@EnableScheduling
 public class ApiConnectionMain {
 
 	private static boolean flag = true;
 	
-	public static void main(String[] args) throws Exception {
+	//@Scheduled(cron = "* 0,15,30,45 * * * *")
+	@Scheduled(cron = "*/10 * * * * *")
+	public void scheduler() throws Exception {
 		if (flag) {
 			Map<String, Object> root = new HashMap<>();
-			root.put("url", "http://localhost:8080/v0.1/rest/campArrInsert/");
+			root.put("url", "http://localhost:8882/v0.1/rest/campArrInsert/");
 			root.put("method", "get");
 			root.put("method", "post");
 			root.put("request", JsonData.getJsonString());
@@ -24,6 +30,7 @@ public class ApiConnectionMain {
 	
 	//////////////////////////////////////////////////////////////////
 	
+	// not be used
 	public static void test01() throws Exception {
 		
 		if (!flag) {

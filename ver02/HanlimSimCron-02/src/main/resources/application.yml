@@ -3,11 +3,21 @@
 # --------------------------------
 # BASE of worker
 
+# 1. second(0-59)
+# 2. minute(0-59)
+# 3. hour(0-23)
+# 4. day(1-31)
+# 5. month(1-12)
+# 6. week(0-7)
+
 my.custom.cron: 0,10,20,30,40,50 * * * * *
-my.custom.cmd: kang.sh
+#my.custom.cron: 0 * * * * *
+# my.custom.cmd: sh docker.sh
+my.custom.cmd: ls -alF
+
 
 server:
-  port: 8883
+  port: 8880
   servlet:
     context-path: /v0.1
     encoding:

@@ -321,3 +321,494 @@ Caused by: java.io.FileNotFoundException: class path resource [mybatis/_mybatis_
 }
 2022-04-06 15:05:23,358 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobTest01()#68 {}
 2022-04-06 15:05:23,358 INFO  [restartedMain] [o.t.w.testNio.Test01Working   ] - KANG-20220214 >>>>> org.tain.working.testNio.Test01Working.test0104()#281 {}
+2022-04-06 16:34:36,160 INFO  [Thread-7  ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:34:36,409 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.main()#20 2022-04-06T16:34:36.409
+2022-04-06 16:34:36,616 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:34:36,618 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:34:36,969 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:34:36,978 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:34:37,205 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:34:37,209 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:34:37,209 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:34:37,224 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:34:37,224 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 591 ms
+2022-04-06 16:34:37,295 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:34:37,343 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:34:37,354 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:34:37,454 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:34:37,459 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:34:37,580 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-06 16:34:37,581 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-06 16:34:37,877 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:34:37,895 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:34:37,903 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 1.469 seconds (JVM running for 5368.335)
+2022-04-06 16:34:37,904 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.run()#32 {}
+2022-04-06 16:34:37,905 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.doing()#16 {}
+2022-04-06 16:34:37,905 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobProperties()#30 {}
+2022-04-06 16:34:37,905 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - KANG-20210405 >>>>> org.tain.working.properties.PropertiesWorking.doing()#35 {}
+2022-04-06 16:34:37,908 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - BASE -- {
+  "name" : "Queue API project",
+  "program" : "KieaQueue API program",
+  "version" : "ver 1.1_2022.04.05",
+  "comment" : "This is Queue API project.",
+  "charSet" : "utf-8",
+  "testFlag" : false,
+  "svrCode" : "TEST03",
+  "dummy" : null
+}
+2022-04-06 16:34:37,909 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - PARAM - {
+  "name" : "PARAM (air)",
+  "home" : "/Users/kang-air",
+  "base" : "/KANG/monster/20210320",
+  "infoPath" : "/json/info",
+  "dataPath" : "/json/data",
+  "basePath" : "/Users/kang-air/STS/GIT/KieaZotto/ver00.00/KieaZotto-02/src/main/resources/json",
+  "custFile" : "cust.json",
+  "prodFile" : "prod.json",
+  "custProdFile" : "cust_prod.json",
+  "dummy" : null
+}
+2022-04-06 16:34:37,910 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JOB  -- {
+  "name" : "JOB (air)",
+  "dummy" : null
+}
+2022-04-06 16:34:37,912 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JSON -- {
+  "name" : "JSON (air)",
+  "dummy" : null
+}
+2022-04-06 16:34:37,912 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - URL  -- {
+  "name" : "URL (air)",
+  "dummy" : null
+}
+2022-04-06 16:34:37,913 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobTest01()#68 {}
+2022-04-06 16:34:37,913 INFO  [restartedMain] [o.t.w.testNio.Test01Working   ] - KANG-20220214 >>>>> org.tain.working.testNio.Test01Working.test0104()#281 {}
+2022-04-06 16:34:37,921 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:41:27,936 INFO  [Thread-9  ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:41:28,169 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.main()#20 2022-04-06T16:41:28.169
+2022-04-06 16:41:28,306 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:41:28,307 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:41:28,576 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:41:28,585 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:41:28,809 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:41:28,813 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:41:28,813 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:41:28,834 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:41:28,834 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 518 ms
+2022-04-06 16:41:28,885 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:41:28,935 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:41:28,941 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:41:29,041 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:41:29,041 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:41:29,132 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-06 16:41:29,132 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-06 16:41:29,295 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:41:29,310 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:41:29,314 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 1.126 seconds (JVM running for 5780.04)
+2022-04-06 16:41:29,315 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.run()#32 {}
+2022-04-06 16:41:29,315 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.doing()#16 {}
+2022-04-06 16:41:29,315 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobProperties()#30 {}
+2022-04-06 16:41:29,315 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - KANG-20210405 >>>>> org.tain.working.properties.PropertiesWorking.doing()#35 {}
+2022-04-06 16:41:29,318 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - BASE -- {
+  "name" : "Queue API project",
+  "program" : "KieaQueue API program",
+  "version" : "ver 1.1_2022.04.05",
+  "comment" : "This is Queue API project.",
+  "charSet" : "utf-8",
+  "testFlag" : false,
+  "svrCode" : "TEST03",
+  "dummy" : null
+}
+2022-04-06 16:41:29,319 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - PARAM - {
+  "name" : "PARAM (air)",
+  "home" : "/Users/kang-air",
+  "base" : "/KANG/monster/20210320",
+  "infoPath" : "/json/info",
+  "dataPath" : "/json/data",
+  "basePath" : "/Users/kang-air/STS/GIT/KieaZotto/ver00.00/KieaZotto-02/src/main/resources/json",
+  "custFile" : "cust.json",
+  "prodFile" : "prod.json",
+  "custProdFile" : "cust_prod.json",
+  "dummy" : null
+}
+2022-04-06 16:41:29,319 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JOB  -- {
+  "name" : "JOB (air)",
+  "dummy" : null
+}
+2022-04-06 16:41:29,320 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JSON -- {
+  "name" : "JSON (air)",
+  "dummy" : null
+}
+2022-04-06 16:41:29,320 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - URL  -- {
+  "name" : "URL (air)",
+  "dummy" : null
+}
+2022-04-06 16:41:29,320 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobTest01()#68 {}
+2022-04-06 16:41:29,321 INFO  [restartedMain] [o.t.w.testNio.Test01Working   ] - KANG-20220214 >>>>> org.tain.working.testNio.Test01Working.test0104()#281 {}
+2022-04-06 16:41:29,322 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:41:42,990 INFO  [Thread-13 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:41:43,283 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.main()#20 2022-04-06T16:41:43.283
+2022-04-06 16:41:43,416 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:41:43,417 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:41:43,823 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:41:43,831 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:41:44,012 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:41:44,015 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:41:44,016 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:41:44,023 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:41:44,023 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 593 ms
+2022-04-06 16:41:44,092 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:41:44,121 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:41:44,125 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:41:44,187 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:41:44,189 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:41:44,355 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-06 16:41:44,355 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-06 16:41:44,628 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:41:44,640 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:41:44,647 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 1.345 seconds (JVM running for 5795.372)
+2022-04-06 16:41:44,648 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.run()#32 {}
+2022-04-06 16:41:44,648 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.doing()#16 {}
+2022-04-06 16:41:44,648 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobProperties()#30 {}
+2022-04-06 16:41:44,649 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - KANG-20210405 >>>>> org.tain.working.properties.PropertiesWorking.doing()#35 {}
+2022-04-06 16:41:44,651 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - BASE -- {
+  "name" : "Queue API project",
+  "program" : "KieaQueue API program",
+  "version" : "ver 1.1_2022.04.05",
+  "comment" : "This is Queue API project.",
+  "charSet" : "utf-8",
+  "testFlag" : false,
+  "svrCode" : "TEST03",
+  "dummy" : null
+}
+2022-04-06 16:41:44,653 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - PARAM - {
+  "name" : "PARAM (air)",
+  "home" : "/Users/kang-air",
+  "base" : "/KANG/monster/20210320",
+  "infoPath" : "/json/info",
+  "dataPath" : "/json/data",
+  "basePath" : "/Users/kang-air/STS/GIT/KieaZotto/ver00.00/KieaZotto-02/src/main/resources/json",
+  "custFile" : "cust.json",
+  "prodFile" : "prod.json",
+  "custProdFile" : "cust_prod.json",
+  "dummy" : null
+}
+2022-04-06 16:41:44,655 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JOB  -- {
+  "name" : "JOB (air)",
+  "dummy" : null
+}
+2022-04-06 16:41:44,656 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - JSON -- {
+  "name" : "JSON (air)",
+  "dummy" : null
+}
+2022-04-06 16:41:44,657 INFO  [restartedMain] [o.t.w.p.PropertiesWorking     ] - >>>>> - URL  -- {
+  "name" : "URL (air)",
+  "dummy" : null
+}
+2022-04-06 16:41:44,657 INFO  [restartedMain] [org.tain.working.Working      ] - KANG-20210405 >>>>> org.tain.working.Working.jobTest01()#68 {}
+2022-04-06 16:41:44,657 INFO  [restartedMain] [o.t.w.testNio.Test01Working   ] - KANG-20220214 >>>>> org.tain.working.testNio.Test01Working.test0104()#281 {}
+2022-04-06 16:41:44,659 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:42:59,983 INFO  [Thread-17 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:43:00,230 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - KANG-20210405 >>>>> org.tain.HanlimSimQueue02Application.main()#20 2022-04-06T16:43:00.230
+2022-04-06 16:43:00,363 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:43:00,364 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:43:00,560 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:43:00,575 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:43:00,681 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:43:00,683 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:43:00,683 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:43:00,691 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:43:00,692 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 320 ms
+2022-04-06 16:43:00,744 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:43:00,768 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:43:00,772 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:43:00,849 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:43:00,853 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:43:00,883 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'hanlimSimQueue02Application': Unsatisfied dependency expressed through field 'projEnvBase'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.tain.tools.properties.ProjEnvBase' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-04-06 16:43:00,883 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:43:00,903 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Stopping service [Tomcat]
+2022-04-06 16:43:00,923 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-06 16:43:00,956 ERROR [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field projEnvBase in org.tain.HanlimSimQueue02Application required a bean of type 'org.tain.tools.properties.ProjEnvBase' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.tain.tools.properties.ProjEnvBase' in your configuration.
+
+2022-04-06 16:43:13,272 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:43:13,274 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:43:13,442 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:43:13,445 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:43:13,533 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:43:13,535 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:43:13,535 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:43:13,543 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:43:13,543 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 258 ms
+2022-04-06 16:43:13,597 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:43:13,624 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:43:13,629 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:43:13,687 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:43:13,688 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:43:13,770 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-06 16:43:13,772 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-06 16:43:13,927 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:43:13,937 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:43:13,942 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 1.406 seconds (JVM running for 5884.665)
+2022-04-06 16:43:13,943 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:51:29,126 INFO  [Thread-22 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:51:29,530 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:51:29,531 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:51:29,709 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:51:29,713 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:51:29,819 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:51:29,821 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:51:29,821 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:51:29,828 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:51:29,828 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 289 ms
+2022-04-06 16:51:29,869 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:51:29,889 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:51:29,895 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:51:29,942 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:51:29,942 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:51:30,017 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-06 16:51:30,017 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-06 16:51:30,164 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:51:30,174 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:51:30,179 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 0.761 seconds (JVM running for 6380.89)
+2022-04-06 16:51:30,180 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:51:47,853 INFO  [Thread-30 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:51:48,242 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:51:48,245 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:51:48,411 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:51:48,415 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:51:48,508 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:51:48,510 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:51:48,510 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:51:48,515 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:51:48,515 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 263 ms
+2022-04-06 16:51:48,549 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:51:48,576 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:51:48,581 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:51:48,670 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:51:48,671 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:51:48,761 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> START org.tain.tools.Tools.startTools()#15 {}
+2022-04-06 16:51:48,761 INFO  [restartedMain] [org.tain.tools.Tools          ] - KANG-20210405 >>>>> END   org.tain.tools.Tools.startTools()#20 {}
+2022-04-06 16:51:48,913 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:51:48,925 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:51:48,930 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 0.804 seconds (JVM running for 6399.64)
+2022-04-06 16:51:48,931 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:52:20,741 INFO  [Thread-34 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:21,092 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:52:21,094 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:52:21,264 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:52:21,267 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:52:21,357 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:52:21,359 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:52:21,360 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:52:21,364 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:52:21,364 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 264 ms
+2022-04-06 16:52:21,407 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:52:21,429 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:52:21,433 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:52:21,481 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:52:21,482 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:21,713 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:52:21,723 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:52:21,727 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 0.744 seconds (JVM running for 6432.436)
+2022-04-06 16:52:21,727 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:52:42,392 INFO  [Thread-38 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:42,764 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:52:42,767 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:52:42,917 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:52:42,920 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:52:43,016 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:52:43,019 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:52:43,019 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:52:43,023 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:52:43,023 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 250 ms
+2022-04-06 16:52:43,067 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:52:43,090 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:52:43,096 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:52:43,188 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:52:43,188 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:43,426 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:52:43,437 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:52:43,443 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 0.802 seconds (JVM running for 6454.152)
+2022-04-06 16:52:43,444 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2022-04-06 16:52:44,902 INFO  [Thread-42 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:45,228 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:52:45,231 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:52:45,407 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:52:45,410 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:52:45,518 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:52:45,520 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:52:45,520 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:52:45,524 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:52:45,524 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 283 ms
+2022-04-06 16:52:45,571 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:52:45,593 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:52:45,598 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:52:45,661 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:52:45,661 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:45,743 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertiesWorking' defined in file [/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main/org/tain/working/properties/PropertiesWorking.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.tain.working.properties.PropertiesWorking]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	ProjEnvParam cannot be resolved to a type
+	ProjEnvJob cannot be resolved to a type
+	ProjEnvJson cannot be resolved to a type
+	ProjEnvUrl cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvParam cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJob cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJson cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvUrl cannot be resolved to a type
+
+2022-04-06 16:52:45,743 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:45,768 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Stopping service [Tomcat]
+2022-04-06 16:52:45,778 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-06 16:52:45,800 ERROR [restartedMain] [o.s.boot.SpringApplication    ] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertiesWorking' defined in file [/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main/org/tain/working/properties/PropertiesWorking.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.tain.working.properties.PropertiesWorking]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	ProjEnvParam cannot be resolved to a type
+	ProjEnvJob cannot be resolved to a type
+	ProjEnvJson cannot be resolved to a type
+	ProjEnvUrl cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvParam cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJob cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJson cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvUrl cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) [spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) [spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) [spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.6.jar:2.6.6]
+	at org.tain.HanlimSimQueue02Application.main(HanlimSimQueue02Application.java:10) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_321]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.tain.working.properties.PropertiesWorking]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	ProjEnvParam cannot be resolved to a type
+	ProjEnvJob cannot be resolved to a type
+	ProjEnvJson cannot be resolved to a type
+	ProjEnvUrl cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvParam cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJob cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJson cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvUrl cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	The import org.tain.tools cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	ProjEnvParam cannot be resolved to a type
+	ProjEnvJob cannot be resolved to a type
+	ProjEnvJson cannot be resolved to a type
+	ProjEnvUrl cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvBase cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvParam cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJob cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvJson cannot be resolved to a type
+	MonJsonNode cannot be resolved
+	ProjEnvUrl cannot be resolved to a type
+
+	at org.tain.working.properties.PropertiesWorking.<init>(PropertiesWorking.java:5) ~[main/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_321]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_321]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_321]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_321]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 24 common frames omitted
+2022-04-06 16:52:51,353 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Starting HanlimSimQueue02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 4523 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimQueue-02)
+2022-04-06 16:52:51,354 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-06 16:52:51,486 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:52:51,489 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-04-06 16:52:51,574 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8882 (http)
+2022-04-06 16:52:51,575 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-06 16:52:51,576 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 16:52:51,580 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-06 16:52:51,581 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 221 ms
+2022-04-06 16:52:51,639 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-06 16:52:51,663 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:52:51,666 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 16:52:51,719 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:52:51,719 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:52:51,949 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2022-04-06 16:52:51,978 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8882 (http) with context path '/v0.1'
+2022-04-06 16:52:51,988 INFO  [restartedMain] [o.t.HanlimSimQueue02Application] - Started HanlimSimQueue02Application in 0.721 seconds (JVM running for 6462.698)
+2022-04-06 16:52:51,990 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged

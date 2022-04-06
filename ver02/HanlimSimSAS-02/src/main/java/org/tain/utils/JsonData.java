@@ -1,4 +1,4 @@
-package org.tain.test;
+package org.tain.utils;
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +10,7 @@ public class JsonData {
 
 	private static final boolean flag = true;
 	
-	public static void main(String[] args) throws Exception {
+	public static void _main(String[] args) throws Exception {
 		if (flag) test01();
 	}
 	

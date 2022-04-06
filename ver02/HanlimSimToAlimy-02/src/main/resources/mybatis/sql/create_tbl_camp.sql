@@ -72,7 +72,7 @@ select * from tbl_camp;
 update
 	tbl_camp
 set
-	flag_send = null
+	flag_send = 'N'
 	, time_send = null
 where 1=1
 ;
