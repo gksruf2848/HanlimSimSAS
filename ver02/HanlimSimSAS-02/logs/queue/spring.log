@@ -1,24 +1,48 @@
-2022-04-06 17:52:31,690 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - Starting HanlimSimSas02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 6635 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimSAS-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimSAS-02)
-2022-04-06 17:52:31,693 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - The following 2 profiles are active: "proj-default", "proj-air"
-2022-04-06 17:52:31,734 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-04-06 17:52:31,735 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-04-06 17:52:32,351 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-04-06 17:52:32,367 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2022-04-06 17:52:33,131 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8881 (http)
-2022-04-06 17:52:33,139 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
-2022-04-06 17:52:33,139 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-06 17:52:33,188 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
-2022-04-06 17:52:33,188 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1453 ms
-2022-04-06 17:52:33,384 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
-2022-04-06 17:52:33,639 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-04-06 17:52:33,664 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.6.7.Final
-2022-04-06 17:52:33,769 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-04-06 17:52:33,823 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2022-04-06 17:52:34,003 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-04-06 17:52:34,009 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-04-06 17:52:34,669 WARN  [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] - Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
-2022-04-06 17:52:34,955 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
-2022-04-06 17:52:34,996 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8881 (http) with context path '/v0.1'
-2022-04-06 17:52:35,015 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - Started HanlimSimSas02Application in 3.815 seconds (JVM running for 4.475)
-2022-04-06 18:02:19,942 INFO  [RMI TCP Connection(13)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
-2022-04-06 18:02:20,045 INFO  [RMI TCP Connection(13)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:38:30,391 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - Starting HanlimSimSas02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 2567 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimSAS-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimSAS-02)
+2022-04-07 13:38:30,395 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-07 13:38:30,439 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-07 13:38:30,439 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-07 13:38:31,098 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:38:31,112 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2022-04-07 13:38:31,825 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8881 (http)
+2022-04-07 13:38:31,833 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-07 13:38:31,833 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:38:31,886 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-07 13:38:31,887 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1447 ms
+2022-04-07 13:38:32,133 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-07 13:38:32,408 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:38:32,443 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-07 13:38:32,551 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 13:38:32,608 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-07 13:38:32,868 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:38:32,874 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:38:33,546 WARN  [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] - Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:38:33,817 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2022-04-07 13:38:33,861 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8881 (http) with context path '/v0.1'
+2022-04-07 13:38:33,879 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - Started HanlimSimSas02Application in 3.978 seconds (JVM running for 4.535)
+2022-04-07 13:40:52,833 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2022-04-07 13:40:52,893 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:52:10,925 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - Starting HanlimSimSas02Application using Java 1.8.0_321 on hanlim-airui-MacBookAir.local with PID 2709 (/Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimSAS-02/bin/main started by hanlim_air in /Users/hanlim_air/STS/Git/HanlimSimSAS/ver02/HanlimSimSAS-02)
+2022-04-07 13:52:10,927 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - The following 2 profiles are active: "proj-default", "proj-air"
+2022-04-07 13:52:10,974 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-07 13:52:10,974 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-07 13:52:11,613 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:52:11,629 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2022-04-07 13:52:12,347 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8881 (http)
+2022-04-07 13:52:12,354 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2022-04-07 13:52:12,354 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:52:12,403 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2022-04-07 13:52:12,403 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1429 ms
+2022-04-07 13:52:12,646 INFO  [restartedMain] [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2'. Database available at 'jdbc:h2:tcp://localhost:9092/queuedb'
+2022-04-07 13:52:12,947 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:52:12,977 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-07 13:52:13,106 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 13:52:13,192 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-07 13:52:13,437 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:52:13,445 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:52:14,147 WARN  [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] - Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:52:14,435 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2022-04-07 13:52:14,514 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8881 (http) with context path '/v0.1'
+2022-04-07 13:52:14,535 INFO  [restartedMain] [o.t.HanlimSimSas02Application ] - Started HanlimSimSas02Application in 4.099 seconds (JVM running for 4.809)
+2022-04-07 14:00:16,526 INFO  [RMI TCP Connection(11)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2022-04-07 14:00:16,599 INFO  [RMI TCP Connection(11)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
