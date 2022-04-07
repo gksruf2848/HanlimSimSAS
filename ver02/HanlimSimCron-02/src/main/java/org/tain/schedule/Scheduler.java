@@ -63,8 +63,8 @@ public class Scheduler {
 			//String[] env = new String[] { "PATH=C:\\Windows\\SysWOW64;%PATH%", "STR=DIR" };
 			//String cmd = "cmd /c dir | findstr %STR%";   // SUCCESS using a pipe
 			// String cmd = "netstat -na | C:\\Windows\\SysWOW64\\findstr.exe 443";  // ERROR
-			File workDir = new File("/Users/kang-air/KANG");
-			String[] env = new String[] { "PATH=/Users/kang-air/bin:$PATH", "STR=DIR" };
+			File workDir = new File("/Users/hanlim_air/HANLIM");
+			String[] env = new String[] { "PATH=/Users/hanlim_air/bin:$PATH", "STR=DIR" };
 			//String cmd = "sh docker.sh";
 			//String cmd = "ls -alF";
 			String cmd = this.myCustomCmd;
