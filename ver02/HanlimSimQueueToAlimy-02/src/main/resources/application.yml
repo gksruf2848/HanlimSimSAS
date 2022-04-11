@@ -35,7 +35,7 @@ spring:
       trace: false
       web-allow-others: true
   datasource:
-    url: jdbc:h2:tcp://localhost:9092/queuedb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:tcp://localhost:9092/queuedb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE //서버에서 나가도 데이터가 저장됨
     #url: jdbc:log4jdbc:h2:tcp://localhost:9092/monsterdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driverClassName: org.h2.Driver
     #driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
@@ -162,15 +162,13 @@ proj-env:
   param:
     name: PARAM (air)
     #home: /Users/kangmac
-    home: /Users/kang-air
-    base: /KANG/monster/20210320
-    info-path: /json/info
-    data-path: /json/data
+    #base: /KANG/monster/20210320
+    #info-path: /json/info
+    #data-path: /json/data
     
-    base-path: /Users/kang-air/STS/GIT/KieaZotto/ver00.00/KieaZotto-02/src/main/resources/json
-    cust-file:      cust.json
-    cust-prod-file: cust_prod.json
-    prod-file:      prod.json
+    #base-path: /Users/kang-air/STS/GIT/KieaZotto/ver00.00/KieaZotto-02/src/main/resources/json
+    #cust-file:      cust.json
+
   job:
     name: JOB (air)
   json:

@@ -1,0 +1,102 @@
+Component EnableScheduling public class apiconnectionmain private static boolean flag
+true scheduled cron *10 ***** public void scheduler throws exception if flag
+map string object root new hashmap root put url root put root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.prntln response response
+apiconnectionmain private static boolean flag true; scheduled cron public void scheduler throws exception
+if flag map string object root new hashmap root put url http localhost rest cmaparrinsert
+root put method get root put method post root put request jsondata get jsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string object root new hashmap root put url http localhost
+root put method get root put method post root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string object root new hashmap
+root put url http localhost root put method get root put method post root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string objcet root new hashmap
+root put url http localhost camparrinsert rootput method get root put method post root put
+request jsondta getjsonstring string response httpconnection getresponse root
+system.out.println response response public void scheduler throws exception if flag
+map string object root new hashmap root put url http localhost campArrinsert root put method get root 
+Requestmapping valu camparrinsert method request string reqbody null if boolean true
+httpheaders reqheaders httpentity getheaders reqbody httpentity get body log info
+ip info ipprintget log info reqheaders reqheaders tostrig reqbody urldecoder
+decode reqbody utf log info reqbody reqbody if reqbody null reqbody int cntinsert
+if boolean true objectmapper objectmapper new objectmapper list map string object listmap
+string reqbody null if boolean true httpheaders reqheaders httpentity getheaders reqbody
+httpentity getbody log info ipprint get log info reqheaders tostring
+reqbody urldecoder decode reqbody utf log info reqbod reqbody if reqbody null
+reqbody int cntInsert if boolean true objectmapper objectmapper new objectmapper
+list map string object listmap objectmapper reqdvalue reqbody new typereference
+list map string objectcntinsert listmap size system.out.println cntinsert cntinsert for map
+string object map listmap system.out.pritnln map map this tblcampmapper insertone map
+multivaluemap string string headers null if boolean true headers new linkedmultivaluemap
+headers add httpheaders content type applkicaation json map string object maplit
+new hashmap mapout put cntinsert cntinsert return new responseentity mapout headers httpstatus ok
+Component EnableScheduling public class apiconnectionmain private static boolean flag
+true scheduled cron *10 ***** public void scheduler throws exception if flag
+map string object root new hashmap root put url root put root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.prntln response response
+apiconnectionmain private static boolean flag true; scheduled cron public void scheduler throws exception
+if flag map string object root new hashmap root put url http localhost rest cmaparrinsert
+root put method get root put method post root put request jsondata get jsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string object root new hashmap root put url http localhost
+root put method get root put method post root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string object root new hashmap
+root put url http localhost root put method get root put method post root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string objcet root new hashmap
+root put url http localhost camparrinsert rootput method get root put method post root put
+ request jsondta getjsonstring string response httpconnection getresponse root
+ system.out.println response response public void scheduler throws exception if flag
+ map string object root new hashmap root put url http localhost campArrinsert root put method get root 
+Requestmapping valu camparrinsert method request string reqbody null if boolean true
+httpheaders reqheaders httpentity getheaders reqbody httpentity get body log info
+ip info ipprintget log info reqheaders reqheaders tostrig reqbody urldecoder
+decode reqbody utf log info reqbody reqbody if reqbody null reqbody int cntinsert
+if boolean true objectmapper objectmapper new objectmapper list map string object listmap
+string reqbody null if boolean true httpheaders reqheaders httpentity getheaders reqbody
+httpentity getbody log info ipprint get log info reqheaders tostring
+reqbody urldecoder decode reqbody utf log info reqbod reqbody if reqbody null
+reqbody int cntInsert if boolean true objectmapper objectmapper new objectmapper
+list map string object listmap objectmapper reqdvalue reqbody new typereference
+list map string objectcntinsert listmap size system.out.println cntinsert cntinsert for map
+string object map listmap system.out.pritnln map map this tblcampmapper insertone map
+multivaluemap string string headers null if boolean true headers new linkedmultivaluemap
+headers add httpheaders content type applkicaation json map string object maplit
+new hashmap mapout put cntinsert cntinsert return new responseentity mapout headers httpstatus ok
+Component EnableScheduling public class apiconnectionmain private static boolean flag
+true scheduled cron *10 ***** public void scheduler throws exception if flag
+map string object root new hashmap root put url root put root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.prntln response response
+apiconnectionmain private static boolean flag true; scheduled cron public void scheduler throws exception
+if flag map string object root new hashmap root put url http localhost rest cmaparrinsert
+root put method get root put method post root put request jsondata get jsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string object root new hashmap root put url http localhost
+root put method get root put method post root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string object root new hashmap
+root put url http localhost root put method get root put method post root put request jsondata getjsonstring
+string response httpconnection getresponse root system.out.println response response
+public void scheduler throws exception if flag map string objcet root new hashmap
+root put url http localhost camparrinsert rootput method get root put method post root put
+request jsondta getjsonstring string response httpconnection getresponse root
+system.out.println response response public void scheduler throws exception if flag
+map string object root new hashmap root put url http localhost campArrinsert root put method get root 
+Requestmapping valu camparrinsert method request string reqbody null if boolean true
+httpheaders reqheaders httpentity getheaders reqbody httpentity get body log info
+ip info ipprintget log info reqheaders reqheaders tostrig reqbody urldecoder
+decode reqbody utf log info reqbody reqbody if reqbody null reqbody int cntinsert
+if boolean true objectmapper objectmapper new objectmapper list map string object listmap
+string reqbody null if boolean true httpheaders reqheaders httpentity getheaders reqbody
+httpentity getbody log info ipprint get log info reqheaders tostring
+reqbody urldecoder decode reqbody utf log info reqbod reqbody if reqbody null
+reqbody int cntInsert if boolean true objectmapper objectmapper new objectmapper
+list map string object listmap objectmapper reqdvalue reqbody new typereference
+list map string objectcntinsert listmap size system.out.println cntinsert cntinsert for map
+string object map listmap system.out.pritnln map map this tblcampmapper insertone map
+multivaluemap string string headers null if boolean true headers new linkedmultivaluemap
+headers add httpheaders content type applkicaation json map string object maplit
+new hashmap mapout put cntinsert cntinsert return new responseentity mapout headers httpstatus ok
