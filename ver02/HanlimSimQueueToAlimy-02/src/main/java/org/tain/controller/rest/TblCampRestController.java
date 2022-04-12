@@ -109,4 +109,40 @@ public class TblCampRestController {
 		mapOut.put("cntInsert", cntInsert);
 		return new ResponseEntity<>(mapOut, headers, HttpStatus.OK);
 	}
+	
+	@RequestMapping(value = {"/campInsert"}, method = {RequestMethod.GET, RequestMethod.POST})
+	public ResponseEntity<?> campInsert(HttpEntity<String> httpEntity) throws Exception {
+		String reqBody = null;
+		if (Boolean.TRUE) {
+			HttpHeaders reqHeaders = httpEntity.getHeaders();
+			reqBody = httpEntity.getBody();
+			log.info(">>>>> ip.info: " + IpPrint.get());
+			log.info(">>>>> reqHeaders: " + reqHeaders.toString());
+			
+			reqBody = URLDecoder.decode(reqBody, "utf-8");
+			log.info(">>>>> reqBody: " + reqBody);
+			if (reqBody == null)
+				reqBody = "{}";
+		}
+		
+		int ret = 0;
+		if (Boolean.TRUE) {
+			ObjectMapper objectMapper = new ObjectMapper();
+			Map<String,Object> mapin = objectMapper.readValue(reqBody, new TypeReference<Map<String,Object>>() {});
+			//String jsonPretty = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(listMap);
+			//System.out.println(">>> " + jsonPretty);
+			System.out.println(">>> map: " + mapin);
+			this.tblCampMapper.insertOne(mapin);
+		}
+			
+		
+		// response
+		MultiValueMap<String,String> headers = null;
+		if (Boolean.TRUE) {
+			headers = new LinkedMultiValueMap<>();
+			headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+		}
+		
+		return new ResponseEntity<>(ret, headers, HttpStatus.OK);
+	}
 }

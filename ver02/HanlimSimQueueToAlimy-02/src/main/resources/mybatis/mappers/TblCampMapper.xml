@@ -54,7 +54,7 @@
 			
 			#{appKdCd},
 			#{pushTopMessage},
-			#{pushBottomMessag},
+			#{pushBottomMessage},
 			#{pushIosMessage},
 			#{talkDispYn},
 			#{detailUrl},
