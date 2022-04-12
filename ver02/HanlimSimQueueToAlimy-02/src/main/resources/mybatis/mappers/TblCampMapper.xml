@@ -9,6 +9,17 @@
 		select
 			id
 			, camp_code
+			
+			, app_kd_cd
+			, push_top_message
+			, push_bottom_message
+			, push_ios_message
+			, talk_disp_yn 
+			, detail_url
+			, banner_url 
+			, msg_grp_no 
+			, send_allw_bgn_dt
+	
 			, camp_content
 			, flag_send
 			, time_insert
@@ -23,12 +34,34 @@
 		insert into tbl_camp
 		(
 			camp_code,
+			
+			app_kd_cd,
+			push_top_message,
+			push_bottom_message,
+			push_ios_message,
+			talk_disp_yn,
+			detail_url,
+			banner_url,
+			msg_grp_no,
+			send_allw_bgn_dt,
+			
 			camp_content,
 			flag_send
 		)
 		values
 		(
 			#{campCode},
+			
+			#{appKdCd},
+			#{pushTopMessage},
+			#{pushBottomMessag},
+			#{pushIosMessage},
+			#{talkDispYn},
+			#{detailUrl},
+			#{bannerUrl},
+			#{msgGrpNo},
+			#{sendAllwBgnDt},
+			
 			#{campContent},
 			'N'
 		)
@@ -49,6 +82,17 @@
 		select
 			id
 			, camp_code
+			
+			, app_kd_cd
+			, push_top_message
+			, push_bottom_message
+			, push_ios_message
+			, talk_disp_yn 
+			, detail_url
+			, banner_url 
+			, msg_grp_no 
+			, send_allw_bgn_dt
+			
 			, camp_content
 			, flag_send
 			, time_insert
@@ -75,6 +119,17 @@
 		select
 			id
 			, camp_code
+			
+			, app_kd_cd
+			, push_top_message
+			, push_bottom_message
+			, push_ios_message
+			, talk_disp_yn 
+			, detail_url
+			, banner_url 
+			, msg_grp_no 
+			, send_allw_bgn_dt
+			
 			, camp_content
 			, flag_send
 			, time_insert
