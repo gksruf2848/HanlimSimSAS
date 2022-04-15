@@ -130,7 +130,7 @@ public class HttpConnection {
 		Map<String, Object> root = null;
 		if (flag) {
 			root = new HashMap<>();
-			root.put("url", "http://localhost:8080/v0.1/rest/custs");
+			root.put("url", "http://localhost:8080/v0.1/rest3/camp/insertOne");
 			if (!flag) root.put("method", "get");
 			
 			if (!flag) {

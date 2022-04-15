@@ -10,7 +10,7 @@ public class ApiConnectionMain {
 	public static void _main(String[] args) throws Exception {
 		if (flag) {
 			Map<String, Object> root = new HashMap<>();
-			root.put("url", "http://localhost:8080/v0.1/rest/campArrInsert/");
+			root.put("url", "http://localhost:8080/v0.1/rest3/camp/insertOne");
 			root.put("method", "get");
 			root.put("method", "post");
 			root.put("request", JsonData.getJsonString());
