@@ -13,7 +13,7 @@ import com.google.gson.reflect.TypeToken;
 
 public class JsonMapTestMain {
 
-	public static void main(String[] args) throws Exception {
+	public static void _main(String[] args) throws Exception {
 		List<Map<String,Object>> listMap = getListMap();
 		
 		if (Boolean.TRUE) testJackson(listMap);

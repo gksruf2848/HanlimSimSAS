@@ -39,6 +39,12 @@ public class TblCamp3Scheduler {
 	@Value("${my.custom.cmd}")
 	private String myCustomCmd;
 	
+	@Value("${my.custom.step.count}") // 10
+	private int myCustomStepCount;
+	
+	@Value("${my.custom.step.delay}") // 500 = 0.5sec
+	private long myCustomStepDelay;
+
 	/*
 	 * // 순서별 정리
 	 * 1. 초(0-59)
@@ -70,7 +76,8 @@ public class TblCamp3Scheduler {
 	
 	@Scheduled(cron = "${my.custom.cron}")
 	public void sendToPushTalkServer() throws Exception {
-		System.out.printf(">>> Scheduler: %s: %s\n", this.myCustomCmd, new Date());
+		System.out.printf(">>> Scheduler: %s: [my.custom.cmd=%s], [my.custom.step.count=%d], [my.custom.step.delay=%d]\n"
+				, new Date(), this.myCustomCmd, this.myCustomStepCount, this.myCustomStepDelay);
 		//if (Boolean.TRUE) return;
 		
 		this.tblCamp3Mapper.updateReady();
@@ -199,78 +206,111 @@ public class TblCamp3Scheduler {
 				}
 				
 				if (Boolean.TRUE) {
+					////////////////////////////////////////////////////////////////////////////
 					/* (O)
 					 * 
 					 */
 					List<PushTalkParameter> listPtp = new ArrayList<>();
+					listPtp.clear();
+					int cntAdd = 0;
+					int retValue = -1;
+					
 					for (Map<String,Object> map : listMap) {
-						//메시지 셋팅
+						
 						String talkMsgTmpltNo = String.valueOf(map.get("talkMsgTmpltNo"));
 						String memNo = String.valueOf(map.get("memNo")); //"18468196"; //42751905 18468196 20750578
 						PushTalkParameter data = new PushTalkParameter(talkMsgTmpltNo , Long.valueOf(memNo));
 						
-						data.setAppKdCd(AppKdCdType.ELEVENSTAPP);  // 발송대상 앱코드
-						
-						JsonObject obj = new JsonObject();
-						obj.addProperty("IOS_MSG", String.valueOf(map.get("iosMessageData")));
-						obj.addProperty("AND_TOP_MSG", String.valueOf(map.get("androidTopMessageData")));
-						obj.addProperty("AND_BTM_MSG", String.valueOf(map.get("androidBtmMessageData")));
-						//System.out.println(">>>>> obj: " + obj);
-						data.setPushTopMessage(obj.toString());
-						data.setPushBottomMessage(obj.toString());
-						data.setPushIosMessage(obj.toString());
-						
-						data.setTalkDispYn("Y");                                      // 고정 처리 (Y) 알림-혜택톡방 동시 사용함
-						data.setDetailUrl(String.valueOf(map.get("detailUrl")));      //   일반푸시 사용시- 클릭URL
-						data.setBannerUrl(String.valueOf(map.get("bannerUrl")));      //   푸시배너이미지. 없을경우 생략가능
-						//data.setMsgGrpNo(1235L);         //   메시지 식별 그룹번호. 없을경우 생략가능
-						Map<String,String> mapEtcData = new Gson().fromJson(String.valueOf(map.get("etcData")), new TypeToken<Map<String, String>>(){}.getType());
-						data.setEtcData(mapEtcData);
-						data.setTalkSummaryMessage(String.valueOf(map.get("talkTitle"))); //알림톡방 리스트에 노출 할 메시지
-						
-						Map<String, Object> map2 = new Gson().fromJson(String.valueOf(map.get("blockImg500Value")), new TypeToken<Map<String, Object>>(){}.getType());  // important
-						@SuppressWarnings("unchecked")
-						List<String> lstUrls = (List<String>) map2.get("imgUrl");  // important
-						List<BlockImg500.Value> lists = new ArrayList<>();  // important
-						for (String strUrl : lstUrls) {
-							lists.add(new BlockImg500.Value(strUrl));	// important
+						if (Boolean.TRUE) {
+							//메시지 셋팅
+							data.setAppKdCd(AppKdCdType.ELEVENSTAPP);  // 발송대상 앱코드
+							
+							JsonObject obj = new JsonObject();
+							obj.addProperty("IOS_MSG", String.valueOf(map.get("iosMessageData")));
+							obj.addProperty("AND_TOP_MSG", String.valueOf(map.get("androidTopMessageData")));
+							obj.addProperty("AND_BTM_MSG", String.valueOf(map.get("androidBtmMessageData")));
+							//System.out.println(">>>>> obj: " + obj);
+							
+							data.setPushTopMessage(obj.toString());
+							data.setPushBottomMessage(obj.toString());
+							data.setPushIosMessage(obj.toString());
+							
+							data.setTalkDispYn("Y");                                      // 고정 처리 (Y) 알림-혜택톡방 동시 사용함
+							data.setDetailUrl(String.valueOf(map.get("detailUrl")));      //   일반푸시 사용시- 클릭URL
+							data.setBannerUrl(String.valueOf(map.get("bannerUrl")));      //   푸시배너이미지. 없을경우 생략가능
+							//data.setMsgGrpNo(1235L);                                    //   메시지 식별 그룹번호. 없을경우 생략가능
+							Map<String,String> mapEtcData = new Gson().fromJson(String.valueOf(map.get("etcData")), new TypeToken<Map<String, String>>(){}.getType());
+							data.setEtcData(mapEtcData);
+							data.setTalkSummaryMessage(String.valueOf(map.get("talkTitle"))); //알림톡방 리스트에 노출 할 메시지
+							
+							Map<String, Object> map2 = new Gson().fromJson(String.valueOf(map.get("blockImg500Value")), new TypeToken<Map<String, Object>>(){}.getType());
+							@SuppressWarnings("unchecked")
+							List<String> lstUrls = (List<String>) map2.get("imgUrl");
+							List<BlockImg500.Value> lists = new ArrayList<>();
+							for (String strUrl : lstUrls) {
+								lists.add(new BlockImg500.Value(strUrl));
+							}
+							
+							List<Block> composites = Lists.newArrayList(
+									new BlockTopCap(new BlockTopCap.Value(String.valueOf(map.get("blockTopCapMainValue")), String.valueOf(map.get("blockTopCapSubValue"))))
+									, new BlockBoldText(new BlockBoldText.Value(String.valueOf(map.get("blockBoldTextMainValue")), String.valueOf(map.get("blockBoldTextSubValue"))))
+									, new BlockImg500(Lists.newArrayList( lists ))
+									, new BlockBtnView(new BlockBtnView.Value(String.valueOf(map.get("blockBtnViewValue"))
+											, new BlockLinkUrl(String.valueOf(map.get("blockLinkUrlMobileValue")), String.valueOf(map.get("blockLinkUrlWebValue")))
+											// new BlockLinkUrl("http://m.11st.co.kr/MW/Product/productBasicInfo.tmall?prdNo=2147806088&detailViewType=webviewReady", "http://11st.co.kr")
+											))
+									);
+							data.setTalkMessage(composites);
+							//System.out.println(">>>>> composites: " + composites);
+							
+							//예약발송
+							//data.setSendAllwBgnDt(new Date()); //예약발송시 설정.  예약발송시간을 java.util.Date 타입으로 작성.
+							
+							//SMS 셋팅 http://wiki.11stcorp.com/pages/viewpage.action?pageId=214088691
+							//data.setSmsMsg("SMS 스펙에 해당하는 데이터 작성");
+							//테스트 데이터 셋팅  , 운영모드 일 경우 Remarking
 						}
 						
-						List<Block> composites = Lists.newArrayList(
-								new BlockTopCap(new BlockTopCap.Value(String.valueOf(map.get("blockTopCapMainValue")), String.valueOf(map.get("blockTopCapSubValue"))))
-								, new BlockBoldText(new BlockBoldText.Value(String.valueOf(map.get("blockBoldTextMainValue")), String.valueOf(map.get("blockBoldTextSubValue"))))
-								, new BlockImg500(Lists.newArrayList( lists ))
-								, new BlockBtnView(new BlockBtnView.Value(String.valueOf(map.get("blockBtnViewValue"))
-										, new BlockLinkUrl(String.valueOf(map.get("blockLinkUrlMobileValue")), String.valueOf(map.get("blockLinkUrlWebValue")))
-										// new BlockLinkUrl("http://m.11st.co.kr/MW/Product/productBasicInfo.tmall?prdNo=2147806088&detailViewType=webviewReady", "http://11st.co.kr")
-										))
-								);
-						data.setTalkMessage(composites);
-						//System.out.println(">>>>> composites: " + composites);
-						
-						//예약발송
-						//data.setSendAllwBgnDt(new Date()); //예약발송시 설정.  예약발송시간을 java.util.Date 타입으로 작성.
-						
-						//SMS 셋팅 http://wiki.11stcorp.com/pages/viewpage.action?pageId=214088691
-						//data.setSmsMsg("SMS 스펙에 해당하는 데이터 작성");
-						//테스트 데이터 셋팅  , 운영모드 일 경우 Remarking
-						
-						// Request Body 확인시
-						//System.out.println(">>>>> Request Body: " + new GsonBuilder().serializeNulls().create().toJson(Arrays.asList(data)));
-						System.out.println(">>>>> Request Body: " + new GsonBuilder().setPrettyPrinting().create().toJson(Arrays.asList(data)));
-						
-						listPtp.add(data);
-						//if (!Boolean.TRUE) PushTalkSendService.INSTANCE.remoteSyncPush(Lists.newArrayList(data));
-						
 						if (Boolean.TRUE) {
+							listPtp.add(data);
+							cntAdd ++;
+							
+							// Request Body 확인
+							System.out.println(">>>>> (" + cntAdd + ") Request Body: " + new GsonBuilder().setPrettyPrinting().create().toJson(Arrays.asList(data)));
+							// 단건 PushTalk 발송.
+							//if (!Boolean.TRUE) PushTalkSendService.INSTANCE.remoteSyncPush(Lists.newArrayList(data));
+							//System.out.println(">>> 1. retValue: " + retValue);
+							
+							// set send_yn = 'Y'
 							Map<String, Object> mapIn = new HashMap<>();
 							mapIn.put("id", map.get("id"));
 							this.tblCamp3Mapper.updateById(mapIn);
 						}
+						
+						if (Boolean.TRUE && (cntAdd) % this.myCustomStepCount == 0) {
+							// PushTalk Array json 출력
+							System.out.println(">>> listPtp: " + new GsonBuilder().setPrettyPrinting().create().toJson(listPtp));
+							
+							// PushTalk Array json 발송
+							if (!Boolean.TRUE) retValue = PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
+							System.out.println(">>> 2. retValue: " + retValue);
+							
+							// Step Delay, millisecond
+							try { Thread.sleep(this.myCustomStepDelay); } catch (InterruptedException e) {}
+							
+							// remove all elements of the list
+							listPtp.clear();
+						}
 					}
 					
-					System.out.println(">>> listPtp: " + new GsonBuilder().setPrettyPrinting().create().toJson(listPtp));
-					if (!Boolean.TRUE) PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
+					if (listPtp.size() != 0) {  // 
+						// PushTalk Array json 출력
+						System.out.println(">>> listPtp: " + new GsonBuilder().setPrettyPrinting().create().toJson(listPtp));
+						
+						// PushTalk Array json 발송
+						if (!Boolean.TRUE) retValue = PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
+						System.out.println(">>> 3. retValue: " + retValue);
+					}
 				}
 			}
 			
