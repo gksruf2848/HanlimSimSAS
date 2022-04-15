@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.tain.mybatis.mappers.TblCamp3Mapper">
+
+	<!-- selectAll -->
+	<select id="selectAll" parameterType="CamelMap" resultType="CamelMap">
+		select
+			id
+			, campaign_code
+			, treatment_code
+			, app_kd_cd
+			, msg_typ_cd
+			, mem_no
+			, message_data
+			, alimi_data
+			, talk_title
+			, talk_disp_yn
+			, talk_msg_tmplt_no
+			, android_top_message_data
+			, android_btm_message_data
+			, ios_message_data
+			, banner_url
+			, detail_url
+			, etc_data
+			, block_top_cap_main_value
+			, block_top_cap_sub_value
+			, block_bold_text_main_value
+			, block_bold_text_sub_value
+			, block_img500_value
+			, block_btn_view_value
+			, block_link_url_mobile_value
+			, block_link_url_web_value
+			, request_dt
+			, return_code
+			
+			, send_yn
+			, time_insert
+			, time_send
+		from
+			tbl_camp3
+		where 1=1
+	</select>
+	
+	<!-- insertOne -->
+	<insert id="insertOne" parameterType="CamelMap">
+		insert into tbl_camp3
+		(
+			campaign_code,
+			treatment_code,
+			app_kd_cd,
+			msg_typ_cd,
+			mem_no,
+			message_data,
+			alimi_data,
+			talk_title,
+			talk_disp_yn,
+			talk_msg_tmplt_no,
+			android_top_message_data,
+			android_btm_message_data,
+			ios_message_data,
+			banner_url,
+			detail_url,
+			etc_data,
+			block_top_cap_main_value,
+			block_top_cap_sub_value,
+			block_bold_text_main_value,
+			block_bold_text_sub_value,
+			block_img500_value,
+			block_btn_view_value,
+			block_link_url_mobile_value,
+			block_link_url_web_value,
+			request_dt,
+			return_code,
+
+			send_yn
+		)
+		values
+		(
+			#{campaigncode},
+			#{treatmentcode},
+			#{AppKdCd},
+			#{MsgTypCd},
+			#{Memno},
+			#{MessageData},
+			#{AlimiData},
+			#{TalkTitle},
+			#{TalkDispYn},
+			#{TalkMsgTmpltNo},
+			#{Android_TopmessageData},
+			#{Android_BtmmessageData},
+			#{Ios_messageData},
+			#{BannerUrl},
+			#{DetailUrl},
+			#{EtcData},
+			#{BlockTopCapMain_Value},
+			#{BlockTopCapSub_Value},
+			#{BlockBoldTextMain_Value},
+			#{BlockBoldTextSub_Value},
+			#{BlockImg500_Value},
+			#{BlockBtnView_Value},
+			#{BlockLinkUrlMobile_Value},
+			#{BlockLinkUrlWeb_Value},
+			#{request_dt},
+			#{return_code},
+			
+			'N'
+		)
+	</insert>
+	
+	<!-- updateReady -->
+	<update id="updateReady">
+		update
+			tbl_camp3
+		set
+			send_yn = 'R'
+		where
+			send_yn = 'N'
+	</update>
+	
+	<!-- selectReady -->
+	<select id="selectReady" resultType="CamelMap">
+		select
+			id
+			, campaign_code
+			, treatment_code
+			, app_kd_cd
+			, msg_typ_cd
+			, mem_no
+			, message_data
+			, alimi_data
+			, talk_title
+			, talk_disp_yn
+			, talk_msg_tmplt_no
+			, android_top_message_data
+			, android_btm_message_data
+			, ios_message_data
+			, banner_url
+			, detail_url
+			, etc_data
+			, block_top_cap_main_value
+			, block_top_cap_sub_value
+			, block_bold_text_main_value
+			, block_bold_text_sub_value
+			, block_img500_value
+			, block_btn_view_value
+			, block_link_url_mobile_value
+			, block_link_url_web_value
+			, request_dt
+			, return_code
+
+			, send_yn
+			, time_insert
+			, time_send
+		from
+			tbl_camp3
+		where 1=1
+			and send_yn = 'R'
+	</select>
+	
+	<!-- updateById -->
+	<update id="updateById" parameterType="CamelMap">
+		update
+			tbl_camp3
+		set
+			send_yn = 'Y',
+			time_send = current_timestamp()
+		where
+			id = #{id}
+	</update>
+
+	<!-- selectOne -->
+	<select id="selectOne" parameterType="CamelMap" resultType="CamelMap">
+		select
+			id
+			, campaign_code
+			, treatment_code
+			, app_kd_cd
+			, msg_typ_cd
+			, mem_no
+			, message_data
+			, alimi_data
+			, talk_title
+			, talk_disp_yn
+			, talk_msg_tmplt_no
+			, android_top_message_data
+			, android_btm_message_data
+			, ios_message_data
+			, banner_url
+			, detail_url
+			, etc_data
+			, block_top_cap_main_value
+			, block_top_cap_sub_value
+			, block_bold_text_main_value
+			, block_bold_text_sub_value
+			, block_img500_value
+			, block_btn_view_value
+			, block_link_url_mobile_value
+			, block_link_url_web_value
+			, request_dt
+			, return_code
+
+			, send_yn
+			, time_insert
+			, time_send
+		from
+			tbl_camp3
+		where 1=1
+		<if test='id != null'>
+			and id = #{id}
+		</if>
+		<if test='campCode != null'>
+			and campaign_code = #{campaignCode}
+		</if>
+	</select>
+	
+</mapper>

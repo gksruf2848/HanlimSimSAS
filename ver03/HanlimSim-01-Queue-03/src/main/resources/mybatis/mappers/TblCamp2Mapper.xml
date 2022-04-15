@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.tain.mybatis.mappers.TblCamp2Mapper">
+
+	<!-- selectAll -->
+	<select id="selectAll" parameterType="CamelMap" resultType="CamelMap">
+		select
+			id
+			, camp_code
+			
+			, mem_no
+			, talk_msg_tmplt_no
+			, app_kd_cd
+			, push_top_message
+			, push_bottom_message
+			, push_ios_message
+			, talk_disp_yn 
+			, detail_url
+			, banner_url 
+			, msg_grp_no 
+			, send_allw_bgn_dt
+	
+			, send_yn
+			, time_insert
+			, time_send
+		from
+			tbl_camp2
+		where 1=1
+	</select>
+	
+	<!-- insertOne -->
+	<insert id="insertOne" parameterType="CamelMap">
+		insert into tbl_camp2
+		(
+			camp_code,
+			
+			mem_no,
+			talk_msg_tmplt_no,
+			app_kd_cd,
+			push_top_message,
+			push_bottom_message,
+			push_ios_message,
+			talk_disp_yn,
+			detail_url,
+			banner_url,
+			msg_grp_no,
+			send_allw_bgn_dt,
+			
+			send_yn
+		)
+		values
+		(
+			#{campCode},
+			
+			#{memNo},
+			#{talkMsgTmpltNo},
+			#{appKdCd},
+			#{pushTopMessage},
+			#{pushBottomMessage},
+			#{pushIosMessage},
+			#{talkDispYn},
+			#{detailUrl},
+			#{bannerUrl},
+			#{msgGrpNo},
+			#{sendAllwBgnDt},
+			
+			'N'
+		)
+	</insert>
+	
+	<!-- updateReady -->
+	<update id="updateReady">
+		update
+			tbl_camp2
+		set
+			send_yn = 'R'
+		where
+			send_yn = 'N'
+	</update>
+	
+	<!-- selectReady -->
+	<select id="selectReady" resultType="CamelMap">
+		select
+			id
+			, camp_code
+			
+			, mem_no
+			, talk_msg_tmplt_no
+			, app_kd_cd
+			, push_top_message
+			, push_bottom_message
+			, push_ios_message
+			, talk_disp_yn 
+			, detail_url
+			, banner_url 
+			, msg_grp_no 
+			, send_allw_bgn_dt
+			
+			, send_yn
+			, time_insert
+			, time_send
+		from
+			tbl_camp2
+		where 1=1
+			and send_yn = 'R'
+	</select>
+	
+	<!-- updateById -->
+	<update id="updateById" parameterType="CamelMap">
+		update
+			tbl_camp2
+		set
+			send_yn = 'Y',
+			time_send = current_timestamp()
+		where
+			id = #{id}
+	</update>
+
+	<!-- selectOne -->
+	<select id="selectOne" parameterType="CamelMap" resultType="CamelMap">
+		select
+			id
+			, camp_code
+			
+			, mem_no
+			, talk_msg_tmplt_no
+			, app_kd_cd
+			, push_top_message
+			, push_bottom_message
+			, push_ios_message
+			, talk_disp_yn 
+			, detail_url
+			, banner_url 
+			, msg_grp_no 
+			, send_allw_bgn_dt
+			
+			, send_yn
+			, time_insert
+			, time_send
+		from
+			tbl_camp2
+		where 1=1
+		<if test='id != null'>
+			and id = #{id}
+		</if>
+		<if test='campCode != null'>
+			and camp_code = #{campCode}
+		</if>
+	</select>
+	
+</mapper>

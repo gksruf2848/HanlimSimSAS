@@ -8,15 +8,26 @@ group = 'org.tain'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	//implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 tasks.named('test') {
+	exclude '**/*'
 	useJUnitPlatform()
 }
