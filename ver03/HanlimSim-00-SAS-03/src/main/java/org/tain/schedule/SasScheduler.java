@@ -46,43 +46,28 @@ public class SasScheduler {
 	public void sendToQueue() throws Exception {
 		System.out.printf(">>> Scheduler: %s: %s\n", this.myCustomCmd, new Date());
 		
-		//ObjectMapper objectMapper = new ObjectMapper();
-		//List<Map<String,Object>> listMap = null;
 		String reqBody = null;
 		
 		try {
-			if (Boolean.TRUE) {
-				for (int i=0; i < 1; i++) {
-					/*
-					Map<String,Object> map = new HashMap<>();
-					map.put("campCode", String.format("campCode"));
-					map.put("memNo", 10000 + i);
-					map.put("talkMsgTmpltNo", "900");
-					map.put("appKdCd", "01");
-					map.put("pushTopMessage", String.format("안드로이드 상단 메시지 %03d", i));
-					map.put("pushBottomMessage", String.format("안드로이드 하단 메시지 %03d", i));
-					map.put("pushIosMessage", String.format("아이폰 메시지 %03d", i));
-					map.put("talkDispYn", "N");
-					map.put("detailUrl", "http://m.11st.co.kr/MW/TData/dataFree.tmall");
-					map.put("bannerUrl", "이미지URL");
-					map.put("msgGrpNo", 1235L);
-					map.put("sendAllwBgnDt", new Date().toString());
-					*/
-					if (Boolean.TRUE) {
-						Map<String, Object> root = new HashMap<>();
-						root.put("url", "http://localhost:8080/v0.1/rest3/camp/insertOne");
-						root.put("method", "post");
-						//reqBody = objectMapper.writeValueAsString(map);
-						//reqBody = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(map);
-						reqBody = JsonData.getJsonString();
-						System.out.println(">>> reqBody1: " + reqBody);
-						//reqBody = URLEncoder.encode(reqBody, "utf-8");
-						//System.out.println(">>> reqBody2: " + reqBody);
-						root.put("request", reqBody);
-						
-						String response = HttpConnection.getResponse(root);
-						System.out.println("--> response: " + response);
-					}
+			for (int i=1; i <= 100; i++) {
+				if (Boolean.TRUE) {
+					Map<String, Object> root = new HashMap<>();
+					root.put("url", "http://localhost:8080/v0.1/rest3/camp/insertOne");
+					root.put("method", "post");
+					
+					//reqBody = objectMapper.writeValueAsString(map);
+					//reqBody = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(map);
+					//reqBody = JsonData.getJsonString();
+					reqBody = JsonData.getJsonString("CAMP00000", String.format("TR%05d", i));
+					System.out.println(">>> reqBody1: " + reqBody);
+					
+					//reqBody = URLEncoder.encode(reqBody, "utf-8");
+					//System.out.println(">>> reqBody2: " + reqBody);
+					
+					root.put("request", reqBody);
+					
+					String response = HttpConnection.getResponse(root);
+					System.out.println("--> response: " + response);
 				}
 			}
 		} catch (Exception e) {

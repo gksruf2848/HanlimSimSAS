@@ -10,11 +10,9 @@ import com.google.common.collect.Lists;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
-import com.google.gson.reflect.TypeToken;
 
 import skt.tmall.talk.dto.PushTalkParameter;
 import skt.tmall.talk.dto.type.AppKdCdType;
-import skt.tmall.talk.dto.type.Block;
 import skt.tmall.talk.dto.type.BlockBoldText;
 import skt.tmall.talk.dto.type.BlockBtnView;
 import skt.tmall.talk.dto.type.BlockImg500;

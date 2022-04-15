@@ -46,7 +46,7 @@ create table if not exists tbl_camp3
 	request_dt                  varchar(  20),
 	return_code                 varchar( 500),
 
-	—- PushTalk status and times
+  -- PushTalk status and times
 	send_yn              char(1),
 	time_insert          timestamp     default current_timestamp,
 	time_send            timestamp
