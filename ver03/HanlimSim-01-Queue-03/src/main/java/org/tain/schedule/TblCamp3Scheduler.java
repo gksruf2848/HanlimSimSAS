@@ -319,6 +319,6 @@ public class TblCamp3Scheduler {
 			throw e;
 		}
 		
-		if (Boolean.TRUE) System.exit(0);
+		//if (Boolean.TRUE) System.exit(0);
 	}
 }

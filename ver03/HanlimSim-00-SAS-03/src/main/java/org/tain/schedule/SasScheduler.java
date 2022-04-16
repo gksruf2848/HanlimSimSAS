@@ -49,10 +49,10 @@ public class SasScheduler {
 		String reqBody = null;
 		
 		try {
-			for (int i=1; i <= 100; i++) {
+			for (int i=1; i <= 10000; i++) {
 				if (Boolean.TRUE) {
 					Map<String, Object> root = new HashMap<>();
-					root.put("url", "http://localhost:8080/v0.1/rest3/camp/insertOne");
+					root.put("url", "http://localhost:8088/v0.1/rest3/camp/insertOne");
 					root.put("method", "post");
 					
 					//reqBody = objectMapper.writeValueAsString(map);

@@ -8,7 +8,7 @@ my.custom.cmd: ls -al
 # BASE of worker
 
 server:
-  port: 8083
+  port: 8088
   servlet:
     context-path: /v0.1
     encoding:

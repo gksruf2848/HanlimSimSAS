@@ -10,7 +10,7 @@ my.custom.step.delay: 500      # 0.5sec
 # BASE of worker
 
 server:
-  port: 8080
+  port: 8088
   servlet:
     context-path: /v0.1
     encoding:
