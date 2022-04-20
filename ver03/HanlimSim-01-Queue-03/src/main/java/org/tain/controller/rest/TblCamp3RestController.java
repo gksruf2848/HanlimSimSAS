@@ -102,4 +102,83 @@ public class TblCamp3RestController {
 		mapOut.put("message", "SUCCESS");
 		return new ResponseEntity<>(mapOut, headers, HttpStatus.OK);
 	}
+	
+	@RequestMapping(value = {"/camp/createTbl"}, method = {RequestMethod.GET, RequestMethod.POST})
+	public ResponseEntity<?> campcreateTbl(HttpEntity<String> httpEntity) throws Exception {
+		String reqBody = null;
+		if (Boolean.TRUE) {
+			HttpHeaders reqHeaders = httpEntity.getHeaders();
+			reqBody = httpEntity.getBody();
+			//log.info(">>>>> ip.info: " + IpPrint.get());
+			log.info(">>>>> reqHeaders: " + reqHeaders.toString());
+			
+			if (reqBody != null) {
+				reqBody = URLDecoder.decode(reqBody, "utf-8");
+				log.info(">>>>> reqBody: " + reqBody);
+			} else {
+				reqBody = "{}";
+			}
+		}
+		
+		if (Boolean.TRUE) {
+			//ObjectMapper objectMapper = new ObjectMapper();
+			//Map<String,Object> map = objectMapper.readValue(reqBody, new TypeReference<Map<String,Object>>() {});
+			//String jsonPretty = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(listMap);
+			//System.out.println(">>> " + jsonPretty);
+			//System.out.println(">>> map: " + map);
+			//if (reqBody == "create")
+			this.tblCamp3Mapper.createTbl();
+		}
+		
+		// response
+		MultiValueMap<String,String> headers = null;
+		if (Boolean.TRUE) {
+			headers = new LinkedMultiValueMap<>();
+			headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+		}
+		
+		Map<String, Object> mapOut = new HashMap<>();
+		mapOut.put("message", "SUCCESS");
+		return new ResponseEntity<>(mapOut, headers, HttpStatus.OK);
+	}
+	
+	@RequestMapping(value = {"/camp/dropTbl"}, method = {RequestMethod.GET, RequestMethod.POST})
+	public ResponseEntity<?> campdropTbl(HttpEntity<String> httpEntity) throws Exception {
+		String reqBody = null;
+		if (Boolean.TRUE) {
+			HttpHeaders reqHeaders = httpEntity.getHeaders();
+			reqBody = httpEntity.getBody();
+			//log.info(">>>>> ip.info: " + IpPrint.get());
+			log.info(">>>>> reqHeaders: " + reqHeaders.toString());
+			
+			if (reqBody != null) {
+				reqBody = URLDecoder.decode(reqBody, "utf-8");
+				log.info(">>>>> reqBody: " + reqBody);
+			} else {
+				reqBody = "{}";
+			}
+			
+		}
+		
+		if (Boolean.TRUE) {
+			//ObjectMapper objectMapper = new ObjectMapper();
+			//Map<String,Object> map = objectMapper.readValue(reqBody, new TypeReference<Map<String,Object>>() {});
+			//String jsonPretty = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(listMap);
+			//System.out.println(">>> " + jsonPretty);
+			//System.out.println(">>> map: " + map);
+			//if (reqBody == "create")
+			this.tblCamp3Mapper.dropTbl();
+		}
+		
+		// response
+		MultiValueMap<String,String> headers = null;
+		if (Boolean.TRUE) {
+			headers = new LinkedMultiValueMap<>();
+			headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+		}
+		
+		Map<String, Object> mapOut = new HashMap<>();
+		mapOut.put("message", "SUCCESS");
+		return new ResponseEntity<>(mapOut, headers, HttpStatus.OK);
+	}
 }

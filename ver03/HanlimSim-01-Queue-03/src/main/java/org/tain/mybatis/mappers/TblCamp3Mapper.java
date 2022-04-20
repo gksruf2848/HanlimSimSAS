@@ -14,4 +14,6 @@ public interface TblCamp3Mapper {
 	List<Map<String,Object>> selectReady();
 	int updateById(Map<String,Object> mapIn);
 	List<Map<String,Object>> selectOne(Map<String,Object> mapIn);
+	int createTbl();
+	int dropTbl();
 }

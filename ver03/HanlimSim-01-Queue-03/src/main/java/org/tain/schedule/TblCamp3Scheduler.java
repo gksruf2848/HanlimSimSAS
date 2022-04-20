@@ -74,7 +74,7 @@ public class TblCamp3Scheduler {
 	@Autowired
 	private TblCamp3Mapper tblCamp3Mapper;
 	
-	@Scheduled(cron = "${my.custom.cron}")
+	//@Scheduled(cron = "${my.custom.cron}")
 	public void sendToPushTalkServer() throws Exception {
 		System.out.printf(">>> Scheduler: %s: [my.custom.cmd=%s], [my.custom.step.count=%d], [my.custom.step.delay=%d]\n"
 				, new Date(), this.myCustomCmd, this.myCustomStepCount, this.myCustomStepDelay);

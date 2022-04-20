@@ -215,4 +215,47 @@
 		</if>
 	</select>
 	
+	<!-- createTbl -->
+	<update id="createTbl" parameterType="CamelMap">
+		create table if not exists tbl_camp3
+		(
+			id                   bigint       not null auto_increment,
+			campaign_code               varchar(  20),
+			treatment_code              varchar(  20),
+			app_kd_cd                   varchar(   2),
+			msg_typ_cd                  varchar(   2),
+			mem_no                      varchar(  10),
+			message_data                varchar(2000),
+			alimi_data                  varchar(2000),
+			talk_title                  varchar( 100),
+			talk_disp_yn                varchar(  10),
+			talk_msg_tmplt_no           varchar(  50),
+			android_top_message_data    varchar(1000),
+			android_btm_message_data    varchar(1000),
+			ios_message_data            varchar(2000),
+			banner_url                  varchar(1000),
+			detail_url                  varchar(1000),
+			etc_data                    varchar( 100),
+			block_top_cap_main_value    varchar( 500),
+			block_top_cap_sub_value     varchar( 100),
+			block_bold_text_main_value  varchar( 500),
+			block_bold_text_sub_value   varchar( 500),
+			block_img500_value          varchar(2000),
+			block_btn_view_value        varchar( 100),
+			block_link_url_mobile_value varchar( 500),
+			block_link_url_web_value    varchar( 500),
+			request_dt                  varchar(  20),
+			return_code                 varchar( 500),
+
+			send_yn              char(1),
+			time_insert          timestamp     default current_timestamp,
+			time_send            timestamp
+		)
+	</update>
+	
+	<!-- deleteTbl -->
+	<update id="dropTbl" parameterType="CamelMap">
+		drop table tbl_camp3
+	</update>
+	
 </mapper>
