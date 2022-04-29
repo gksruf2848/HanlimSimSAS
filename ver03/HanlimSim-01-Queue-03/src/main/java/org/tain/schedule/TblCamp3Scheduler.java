@@ -44,6 +44,10 @@ public class TblCamp3Scheduler {
 	
 	@Value("${my.custom.step.delay}") // 500 = 0.5sec
 	private long myCustomStepDelay;
+	
+	@Value("${my.custom.send.flag}") // true이면 PushTalk 서버에 전송
+	private boolean myCustomSendFlag;
+	
 
 	/*
 	 * // 순서별 정리
@@ -74,7 +78,7 @@ public class TblCamp3Scheduler {
 	@Autowired
 	private TblCamp3Mapper tblCamp3Mapper;
 	
-	//@Scheduled(cron = "${my.custom.cron}")
+	@Scheduled(cron = "${my.custom.cron}")
 	public void sendToPushTalkServer() throws Exception {
 		System.out.printf(">>> Scheduler: %s: [my.custom.cmd=%s], [my.custom.step.count=%d], [my.custom.step.delay=%d]\n"
 				, new Date(), this.myCustomCmd, this.myCustomStepCount, this.myCustomStepDelay);
@@ -292,7 +296,7 @@ public class TblCamp3Scheduler {
 							System.out.println(">>> listPtp: " + new GsonBuilder().setPrettyPrinting().create().toJson(listPtp));
 							
 							// PushTalk Array json 발송
-							if (!Boolean.TRUE) retValue = PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
+							if (Boolean.TRUE && this.myCustomSendFlag) retValue = PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
 							System.out.println(">>> 2. retValue: " + retValue);
 							
 							// Step Delay, millisecond
@@ -308,7 +312,7 @@ public class TblCamp3Scheduler {
 						System.out.println(">>> listPtp: " + new GsonBuilder().setPrettyPrinting().create().toJson(listPtp));
 						
 						// PushTalk Array json 발송
-						if (!Boolean.TRUE) retValue = PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
+						if (Boolean.TRUE && this.myCustomSendFlag) retValue = PushTalkSendService.INSTANCE.remoteSyncPush(listPtp);
 						System.out.println(">>> 3. retValue: " + retValue);
 					}
 				}
