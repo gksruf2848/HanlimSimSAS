@@ -5,7 +5,7 @@ my.custom.cron: 0,10,20,30,40,50 * * * * *
 my.custom.cmd: ls -al
 my.custom.step.count: 10
 my.custom.step.delay: 500      # 0.5sec
-my.custom.send.flag: true
+my.custom.send.flag: false
 
 # --------------------------------
 # BASE of worker
